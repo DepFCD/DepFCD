@@ -33,6 +33,20 @@ dep_facade.exe -cc D:\LineageOS\base -ca D:\android\base -c D:\LineageOS\lineage
 
 对于执行过程中可能出现的关于`log4j`相关WARN可以忽略
 
+### Set up
+We use the following scirpts to get the merge points and conflicts, most of them are from https://zenodo.org/record/6272071#.Yxg_OWhBw_E.
+To executing them, users need to satisfy following steps.
+1. Clone corresponding customized Android Frameworks into directory platforms.
+2. Retrieve commit history of customized Android Frameworks and store into directory history.
+3. Run Python scripts to acquire merge and conflict information.
+Every Python script contains the specification of the intention at the beginning of the script.
+However, the path specified in the script should be replaced with the local path as I am using the absolute path.
+We also provide specific scripts we use in this directory.
+1. After cloning the repo,  users also need to create `/<project>` folder which contains `branch_all.txt` and `/branches` empty folder, the `branch_all.txt` contains all branches of versions.
+2. Then, run `andro_base_branch_commit_hist.py` to retrieve commit history.
+3. After that, run `merge_extract.py` to acquire all merge points.
+4. Finally, run `merge_conf_detect.py` to detect the merge conlicts and `merge_conf_ast.py` to get the details of conflict blocks.
+
 ## Data
 
 ### Methodology
@@ -47,22 +61,7 @@ This directory contains the executable tools and scripts to analyze source code 
 - input: source code path.
 - command:
 ```java
-java -jar <executable> <lang> <dir> <project-name>
-```
-The detailed information of the parameter and option of the command is:
-```java
-Usage: enre_java [-h] [-a=<aidl>] [-hd=<hidden>] [-d=<dir>]... <lang> <src>
-                 <projectName>
-      <lang>          The lanauge of project files: []
-      <src>           The directory to be analyzed
-      <projectName>   The analyzed project file name
-  -a, --aidl=<aidl>   If the analyzed project is an Android project which
-                        contains .aidl files, please provide the corresponding .
-                        java files which have the same relative path with the
-                        original file
-  -d, --dir=<dir>     The additional directories to be analyzed
-  -h, --help          display this help and exit
-  -hd, --hidden=<hidden> The path of hiddenapi=flag.csv
+java -jar <executable> <lang> <dir> <project-name> -hd <path-to-hiddenapi-flags.csv>
 ```
 - output: after analysis, ENRE-Java finally outputs the resolved entities and dependencies in JSON files in current directory，which contains corresponding dependency graph
   
