@@ -1,4 +1,5 @@
 # Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization
+This project contains the data and scripts of work `Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization`. The directory is conducted as following, which is corresponding to the work.
 
 ## Tools and scripts
 
@@ -28,9 +29,9 @@
 dep_facade.exe -cc D:\LineageOS\base -ca D:\android\base -c D:\LineageOS\lineage.json -a D:\android\android.json -ref ref_tool\bin\RefactoringMiner -o D:\LineageOS\res
 ```
 
-在检测过程中，我们需要获取aosp历史所有版本的commits信息，需要一定时间，为节约时间，可以将我们在`data\Methodology\The detection of Dependency facade \Entity Ownership Identification`中给出的`all_base_commits.csv`存放于`out_path`目录下，所有检测结果将存在`out_path`目录下
+During the detecting process，we need to acquire all commits history of AOSP all versions，which is time-consuming. To save some time，you can pust the `all_base_commits.csv` which is provided by Section `data\Methodology\The detection of Dependency facade \Entity Ownership Identification`.
 
-对于执行过程中可能出现的关于`log4j`相关WARN可以忽略
+For the WARNING which is related to `log4j` during the execulting process is ignorable. 
 
 ### Set up
 We use the following scirpts to get the merge points and conflicts, most of them are from https://zenodo.org/record/6272071#.Yxg_OWhBw_E.
@@ -66,7 +67,6 @@ java -jar <executable> <lang> <dir> <project-name> -hd <path-to-hiddenapi-flags.
   
 ##### Entity Ownership Identification
 This directory contains the data of  commits history, ownership and dependency facade information generate by running the tool `dep_facade.exe`, following diagram shows the detail of each file.
-
 
 - `all_base_commits.csv` - the evolution history of all commits of the upstream AOSP frameworks/base
 - `<project name>-<version>`
@@ -165,7 +165,6 @@ This directory contains data of textual conflicts detection results of each proj
 
 #### RQ4: How do merge conflicts occur on the dependency facade between downstream customizations and the upstream Android?
 
-- conflict blocks on the dependency facade
 - `selected-conf-block.docx` - the selected conflict blocks details.
 
 # Threats
