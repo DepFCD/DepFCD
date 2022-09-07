@@ -1,11 +1,47 @@
 # Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization
 
-## Methodology
-This directory contains the executable tools and scripts to analyze source code and history and implement experiments.
+## Script 
 
 ### The detection of Dependency facade
 
 #### Entity and Dependency Extraction
+
+- `enre_java.jar` - a static code analysis tool to produce dependencies graphs.
+
+- input: source code path， hidden flag file path
+
+- command:
+
+  ```powershell
+  java -jar enre_java.jar java D:\LineageOS\base\services\core\java\com\android\server lineage -hd hiddenapi-flags-lineage18.csv
+  ```
+
+#### Entity Ownership  and Intrusive Operation Identification
+
+- `ref_tool\lib\RefactoringMiner-2.2.0.jar` - the refactoring infomation detection tool, there are some `jar` required for the tool in the `ref_tool\lib` directory
+- `ref_tool\bin\RefactoringMiner` - a script that executes the tool `Refactoring Miner-2.2.0.jar` to generate refactoring information
+
+- `dep_facade.exe` - a dependency facade analysis tool to detect entities' ownership and intrusive operation in dependencies  graph
+- input: source code path, source dependencies graph json file path
+- command:
+
+```powershell
+dep_facade.exe -cc D:\LineageOS\base -ca D:\android\base -c D:\LineageOS\lineage.json -a D:\android\android.json -ref ref_tool\bin\RefactoringMiner -o D:\LineageOS\res
+```
+
+在检测过程中，我们需要获取aosp历史所有版本的commits信息，需要一定时间，为节约时间，可以将我们在`data\Methodology\The detection of Dependency facade \Entity Ownership Identification`中给出的`all_base_commits.csv`存放于`out_path`目录下，所有检测结果将存在`out_path`目录下
+
+对于执行过程中可能出现的关于`log4j`相关WARN可以忽略
+
+## Data
+
+### Methodology
+
+This directory contains the executable tools and scripts to analyze source code and history and implement experiments.
+
+#### The detection of Dependency facade
+
+##### Entity and Dependency Extraction
 
 - `enre_java.jar` - a static code analysis tool to produce dependencies graphs.
 - input: source code path.
@@ -30,7 +66,7 @@ Usage: enre_java [-h] [-a=<aidl>] [-hd=<hidden>] [-d=<dir>]... <lang> <src>
 ```
 - output: after analysis, ENRE-Java finally outputs the resolved entities and dependencies in JSON files in current directory，which contains corresponding dependency graph
   
-#### Entity Ownership Identification
+##### Entity Ownership Identification
 - jar or scripts
 - input
 - command
@@ -46,7 +82,7 @@ Usage: enre_java [-h] [-a=<aidl>] [-hd=<hidden>] [-d=<dir>]... <lang> <src>
     - final_ownership.csv - the entity ownership detection result below the 'File' level in the project
     - facade.json - the detection result of dependency facade of current project version
 
-#### Intrusive Operation Identification
+##### Intrusive Operation Identification
   This directory contains the data of different kinds of intrusive modification, following diagram shows the detail of each file.
 - jar or scripts
 - input
@@ -67,7 +103,7 @@ Usage: enre_java [-h] [-a=<aidl>] [-hd=<hidden>] [-d=<dir>]... <lang> <src>
     - return_type_modify_entities.csv - The number of method modified by return type
     - refactor_entities.csv - The number of refactoring entity(rename, extract and others)
 
-### Restriction Level Labeling
+#### Restriction Level Labeling
 - First, we get the current project version's non-SDK restriction level file by executing following command under the repo.
 
 ```
@@ -87,19 +123,19 @@ This directory contains data of non-SDK restriction files and the matching stati
 
 Then update the original dependency graph G by labeling non-SDK entities with their restriction levels through the command of `enre_java.jar`
 
-## Set up
+### Set up
 This directory contains the preliminary data to conduct following experiments and study our four research questions.
 
-### Subject and Version Collection
+#### Subject and Version Collection
 This directory contains merge points which downstream project version merging upstream AOSP
 
-### Merge Conflict Collection
+#### Merge Conflict Collection
 This directory contains data of textual conflicts detection results of each project versions and details of manually selected conflict blocks.
 
 - `<project name>-<version>-merge.csv` - the conflict details of current downstream project version which contains merge nodes, conflict files quantity, conflict java files quantity and conflict blocks LOC.
 
-## Results
-### RQ1: How do the downstream customizations rely on the upstream Android through interface-level dependencies?
+### Results
+#### RQ1: How do the downstream customizations rely on the upstream Android through interface-level dependencies?
 
 - entity ownership distribution
   - `entity-ownership.xlsx` - the final collection of all project versions' entity ownership detection results
@@ -109,29 +145,30 @@ This directory contains data of textual conflicts detection results of each proj
   - `facade.xlsx` - the collection of all downstream project versions' dependency facade detection results
   - `<project name>-<version>`
     - `facade_base_info_count.csv` - The number of entity and dependency appearing in the dependency facade
+    - `facade_relation_info_count.csv` - The number of each kind of dependency appearing in the dependency facade
     - `facade_file_filter.csv` - The number of each kind of entity appearing in the dependency facade which is counted in files
 - interface-level dependencies (D->U)
   - `interface-level dep.xlsx` - the collection of all downstream project versions' interface-level dependencies facade detection results
   - `<project name>-<version>`
     - `interface_level_facade_d2u.csv` - The number of each kind of dependency appearing in the dependency facade(D->U)
 
-### RQ2: How do the downstream customizations rely on the upstream Android through intrusion-level dependencies?
+#### RQ2: How do the downstream customizations rely on the upstream Android through intrusion-level dependencies?
 
 - intrusive operations
   - `intrusive-type.xlsx` - The collection of different kinds of intrusive modification's quantity for all project version
   - `<project name>-<version>`
-    - `intrusive_count.xlsx` - The quantity of each kind of intrusive modification
+    - `intrusive_count.csv` - The quantity of each kind of intrusive modification
     - `intrusive_file_count.csv` - The quantity of each kind of intrusive modification which is counted in files
 - reverse dependencies
   - `<project name>-<version>`
-    - `interface_level_facade_u2d.csv.csv` - The number of each kind of dependency appearing in the dependency facade(U->D)
+    - `interface_level_facade_u2d.csv` - The number of each kind of dependency appearing in the dependency facade(U->D)
 
-### RQ3: How do the downstream customizations adapt to the dependency constraint imposed by the upstream Android?
+#### RQ3: How do the downstream customizations adapt to the dependency constraint imposed by the upstream Android?
 
 - state transform and industrial modification
 - non-SDK API usage
 
-### RQ4: How do merge conflicts occur on the dependency facade between downstream customizations and the upstream Android?
+#### RQ4: How do merge conflicts occur on the dependency facade between downstream customizations and the upstream Android?
 
 - conflict blocks on the dependency facade
 - `selected-conf-block.docx` - the selected conflict blocks details.
