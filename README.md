@@ -1,6 +1,6 @@
 # Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization
 
-## Script 
+## Tools and scripts
 
 ### The detection of Dependency facade
 
@@ -18,10 +18,9 @@
 
 #### Entity Ownership  and Intrusive Operation Identification
 
-- `ref_tool\lib\RefactoringMiner-2.2.0.jar` - the refactoring infomation detection tool, there are some `jar` required for the tool in the `ref_tool\lib` directory
-- `ref_tool\bin\RefactoringMiner` - a script that executes the tool `Refactoring Miner-2.2.0.jar` to generate refactoring information
-
-- `dep_facade.exe` - a dependency facade analysis tool to detect entities' ownership and intrusive operation in dependencies  graph
+- `dep_facade.exe` - a dependency facade analysis tool to detect entities' ownership and intrusive operation in dependencies  graph and in this tool we encapsulate the tool `RefactoringMiner`
+  - `ref_tool\lib\RefactoringMiner-2.2.0.jar` - the refactoring infomation detection tool, there are some `jar` required for the tool in the `ref_tool\lib` directory
+  - `ref_tool\bin\RefactoringMiner` - a script that executes the tool `Refactoring Miner-2.2.0.jar` to generate refactoring information
 - input: source code path, source dependencies graph json file path
 - command:
 
@@ -66,41 +65,38 @@ java -jar <executable> <lang> <dir> <project-name> -hd <path-to-hiddenapi-flags.
 - output: after analysis, ENRE-Java finally outputs the resolved entities and dependencies in JSON files in current directory，which contains corresponding dependency graph
   
 ##### Entity Ownership Identification
-- jar or scripts
-- input
-- command
-- output
-  - `all_base_commits.csv` - the evolution history of all commits of the upstream AOSP frameworks/base
-  - `<project name>-<version>`
-    - blame_dict.csv - git blame detection result of current project selected merge node 
-    - accompany_commits.csv - information of current project version's commit history
-    - base_commits.csv - information of merge point which downstream project version merging upstream AOSP
-    - old_base_commits.csv - commit history of current project version which belongs to upstream AOSP old version
-    - only_accompany_commits.csv - commit history of current project version which belongs to downstream project
-    - all_entities.csv - all entities and commits which contributed to specific entity information of files which contains intrusive modification of downstream project
-    - final_ownership.csv - the entity ownership detection result below the 'File' level in the project
-    - facade.json - the detection result of dependency facade of current project version
+This directory contains the data of  commits history, ownership and dependency facade information generate by running the tool `dep_facade.exe`, following diagram shows the detail of each file.
+
+
+- `all_base_commits.csv` - the evolution history of all commits of the upstream AOSP frameworks/base
+- `<project name>-<version>`
+	- blame_dict.csv - git blame detection result of current project selected merge node 
+	- accompany_commits.csv - information of current project version's commit history
+	- base_commits.csv - information of merge point which downstream project version merging upstream AOSP
+	- old_base_commits.csv - commit history of current project version which belongs to upstream AOSP old version
+	- only_accompany_commits.csv - commit history of current project version which belongs to downstream project
+	- all_entities.csv - all entities and commits which contributed to specific entity information of files which contains intrusive modification of downstream project
+	- final_ownership.csv - the entity ownership detection result below the 'File' level in the project
+	- facade.json - the detection result of dependency facade of current project version
+
 
 ##### Intrusive Operation Identification
-  This directory contains the data of different kinds of intrusive modification, following diagram shows the detail of each file.
-- jar or scripts
-- input
-- command
-- output:
-  - `<project name>-<version>`
-    - access_modify_entities.csv - The number of entity modifed by accessibility
-    - final_modify_entities.csv - The number of entity modifed by 'final'
-    - annotation_modify_entities.csv
-    - add_import.json - The num of newly added statement of 'import'
-    - inner_extensive_class_entities.csv - The num of newly added inner class in native class
-    - parent_class_modify_entities.csv - The number of class modifed by parent class('inherit')
-    - parent_interface_modify_entities.csv - The number of class modifed by parent interface('interface')
-    - class_var_extensive_entities.csv - The number of newly added class field 
-    - class_var_modify_entities.csv - The number of  modified class field 
-    - method_var_modify_entities.csv -  The number of modified variable in method
-    - param_modify_entities.csv  -  The number of method modified by parameters
-    - return_type_modify_entities.csv - The number of method modified by return type
-    - refactor_entities.csv - The number of refactoring entity(rename, extract and others)
+This directory contains the data of different kinds of intrusive modification generate by running the tool `dep_facade.exe`,  following diagram shows the detail of each file.
+
+- `<project name>-<version>`
+	- access_modify_entities.csv - The number of entity modifed by accessibility
+	- final_modify_entities.csv - The number of entity modifed by 'final'
+	- annotation_modify_entities.csv
+	- add_import.json - The num of newly added statement of 'import'
+	- inner_extensive_class_entities.csv - The num of newly added inner class in native class
+	- parent_class_modify_entities.csv - The number of class modifed by parent class('inherit')
+	- parent_interface_modify_entities.csv - The number of class modifed by parent interface('interface')
+	- class_var_extensive_entities.csv - The number of newly added class field 
+	- class_var_modify_entities.csv - The number of  modified class field 
+	- method_var_modify_entities.csv -  The number of modified variable in method
+	- param_modify_entities.csv  -  The number of method modified by parameters
+	- return_type_modify_entities.csv - The number of method modified by return type
+	- refactor_entities.csv - The number of refactoring entity(rename, extract and others)
 
 #### Restriction Level Labeling
 - First, we get the current project version's non-SDK restriction level file by executing following command under the repo.
@@ -117,8 +113,8 @@ m out/soong/hiddenapi/hiddenapi.csv
 
 This directory contains data of non-SDK restriction files and the matching statistics, following diagram shows the details.
 
-  - `matching.xlsx` - the matching statistics of non-SDK restriction files to dependency graph which is provided by ENRE
-  - `hiddenapi-flags-<project name>-<version>.csv` - the 'hiddenapi-flags.csv' of downstream LineageOS 18.1 and 19.1, upstream AOSP 11 and 12. 
+- `matching.xlsx` - the matching statistics of non-SDK restriction files to dependency graph which is provided by ENRE
+- `hiddenapi-flags-<project name>-<version>.csv` - the 'hiddenapi-flags.csv' of downstream LineageOS 18.1 and 19.1, upstream AOSP 11 and 12. 
 
 Then update the original dependency graph G by labeling non-SDK entities with their restriction levels through the command of `enre_java.jar`
 
