@@ -1,0 +1,4 @@
+id,category,qualifiedName,file_path,not_aosp,old_aosp,isIntrusive,intrusiveModify,refactor
+58728,Variable,android.bluetooth.BluetoothHeadset.mService,core/java/android/bluetooth/BluetoothHeadset.java,0,-1,1,"{'annotation_modify': ""['com.android.internal.annotations.GuardedBy']-[]"", 'class_var_modify': '-'}",[]
+117736,Method,android.net.NetworkStatsHistory.multiplySafe,core/java/android/net/NetworkStatsHistory.java,0,-1,1,"{'annotation_modify': ""[]-['com.android.internal.annotations.VisibleForTesting']"", 'method_body_modify': '-'}","[{'type': 'Move Method', 'source_name': 'com.android.server.net.NetworkStatsCollection.multiplySafe', 'source_param': 'value num den'}]"
+976361,Method,android.telephony.TelephonyScanManager.saveScanInfo,telephony/java/android/telephony/TelephonyScanManager.java,0,-1,1,"{'annotation_modify': ""['com.android.internal.annotations.GuardedBy']-[]"", 'method_body_modify': '-'}",[]

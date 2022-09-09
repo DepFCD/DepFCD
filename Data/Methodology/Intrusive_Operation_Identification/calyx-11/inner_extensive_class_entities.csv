@@ -1,0 +1,4 @@
+id,category,qualifiedName,file_path,not_aosp,old_aosp,isIntrusive,intrusiveModify,refactor
+90490,Class,android.hardware.Camera.Coordinate,core/java/android/hardware/Camera.java,1,-1,0,{},[]
+621369,Class,com.android.systemui.globalactions.GlobalActionsDialog.PanicAction,packages/SystemUI/src/com/android/systemui/globalactions/GlobalActionsDialog.java,1,-1,0,{},[]
+790971,Class,com.android.server.NetworkManagementService.RestrictIf,services/core/java/com/android/server/NetworkManagementService.java,1,-1,0,{},[]

@@ -1,0 +1,2 @@
+access_modify,final_modify,annotation_modify,param_modify,import_extensive,parent_class_modify,parent_interface_modify,class_body_modify,inner_extensive_class,class_var_extensive,class_var_modify,method_body_modify,method_extensive,method_var_extensive,method_var_modify,Move Class,Rename Class,Move And Rename Class,Move Method,Rename Method,Move And Rename Method,Extract Method,Extract And Move Method,Rename Parameter,Add Parameter,Remove Parameter
+32,47,0,25,157,0,7,328,13,591,83,583,329,171,74,0,0,0,0,2,0,13,0,2,19,1

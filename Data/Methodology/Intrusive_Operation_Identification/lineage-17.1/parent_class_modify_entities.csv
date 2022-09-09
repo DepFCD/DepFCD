@@ -1,0 +1,2 @@
+id,category,qualifiedName,file_path,not_aosp,old_aosp,isIntrusive,intrusiveModify,refactor
+585721,Class,com.android.systemui.screenshot.ScreenshotSelectorView,packages/SystemUI/src/com/android/systemui/screenshot/ScreenshotSelectorView.java,0,-1,1,"{'parent_class_modify': 'android.widget.FrameLayout-android.view.View', 'parent_interface_modify': ""['android.view.View.OnTouchListener']-[]"", 'class_body_modify': '-'}",[]

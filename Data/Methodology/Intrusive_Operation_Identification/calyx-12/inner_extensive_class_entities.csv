@@ -1,0 +1,2 @@
+id,category,qualifiedName,file_path,not_aosp,old_aosp,isIntrusive,intrusiveModify,refactor
+676728,Class,com.android.systemui.globalactions.GlobalActionsDialogLite.PanicAction,packages/SystemUI/src/com/android/systemui/globalactions/GlobalActionsDialogLite.java,1,-1,0,{},[]

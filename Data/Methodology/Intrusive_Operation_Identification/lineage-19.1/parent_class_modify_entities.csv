@@ -1,0 +1,2 @@
+id,category,qualifiedName,file_path,not_aosp,old_aosp,isIntrusive,intrusiveModify,refactor
+705241,Class,com.android.systemui.settings.brightness.BrightnessSliderView,packages/SystemUI/src/com/android/systemui/settings/brightness/BrightnessSliderView.java,0,-1,1,"{'parent_class_modify': 'android.widget.LinearLayout-android.widget.FrameLayout', 'class_body_modify': '-'}",[]

@@ -1,0 +1,3 @@
+id,category,qualifiedName,file_path,not_aosp,old_aosp,isIntrusive,intrusiveModify,refactor
+671729,Variable,com.android.systemui.biometrics.UdfpsView.DEFAULT_HBM_TYPE,packages/SystemUI/src/com/android/systemui/biometrics/UdfpsView.java,0,-1,1,"{'final_modify': 'final-', 'class_var_modify': '-'}",[]
+676881,Variable,com.android.systemui.globalactions.GlobalActionsDialogLite.SinglePressAction.mMessageResId,packages/SystemUI/src/com/android/systemui/globalactions/GlobalActionsDialogLite.java,0,-1,1,"{'access_modify': 'private-protected', 'final_modify': 'final-', 'class_var_modify': '-'}",[]

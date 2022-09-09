@@ -1,0 +1,7 @@
+id,category,qualifiedName,file_path,not_aosp,old_aosp,isIntrusive,intrusiveModify,refactor
+676682,Class,com.android.systemui.globalactions.GlobalActionsDialogLite.RebootRecoveryAction,packages/SystemUI/src/com/android/systemui/globalactions/GlobalActionsDialogLite.java,1,-1,0,{},[]
+676687,Class,com.android.systemui.globalactions.GlobalActionsDialogLite.RebootBootloaderAction,packages/SystemUI/src/com/android/systemui/globalactions/GlobalActionsDialogLite.java,1,-1,0,{},[]
+676692,Class,com.android.systemui.globalactions.GlobalActionsDialogLite.RebootFastbootAction,packages/SystemUI/src/com/android/systemui/globalactions/GlobalActionsDialogLite.java,1,-1,0,{},[]
+678381,Class,com.android.systemui.keyguard.KeyguardSliceProvider.SettingsObserver,packages/SystemUI/src/com/android/systemui/keyguard/KeyguardSliceProvider.java,1,-1,0,{},[]
+719440,Class,com.android.systemui.statusbar.phone.StatusBar.SettingsObserver,packages/SystemUI/src/com/android/systemui/statusbar/phone/StatusBar.java,1,-1,0,{},[]
+810503,Class,com.android.server.BatteryService.SettingsObserver,services/core/java/com/android/server/BatteryService.java,1,-1,0,{},[]

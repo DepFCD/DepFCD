@@ -1,0 +1,3 @@
+id,category,qualifiedName,file_path,not_aosp,old_aosp,isIntrusive,intrusiveModify,refactor
+574587,Method,com.android.systemui.globalactions.GlobalActionsDialog.SinglePressAction.getStatus,packages/SystemUI/src/com/android/systemui/globalactions/GlobalActionsDialog.java,0,-1,1,"{'return_type_modify': 'CharSequence-String', 'method_body_modify': '-'}",[]
+616218,Method,com.android.systemui.tuner.TunerServiceImpl.getValue,packages/SystemUI/src/com/android/systemui/tuner/TunerServiceImpl.java,0,-1,1,"{'return_type_modify': 'String-int', 'method_body_modify': '-'}",[]

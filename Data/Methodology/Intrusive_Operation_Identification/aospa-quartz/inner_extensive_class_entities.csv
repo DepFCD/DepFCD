@@ -1,0 +1,9 @@
+id,category,qualifiedName,file_path,not_aosp,old_aosp,isIntrusive,intrusiveModify,refactor
+65982,Class,android.hardware.Camera.Coordinate,core/java/android/hardware/Camera.java,1,-1,0,{},[]
+135380,Class,android.util.apk.ApkSignatureVerifier.verifyV1Signature.VerificationData,core/java/android/util/apk/ApkSignatureVerifier.java,1,-1,0,{},[]
+183822,Class,android.widget.ListView.FillNextGap,core/java/android/widget/ListView.java,1,-1,0,{},[]
+565224,Class,com.android.systemui.statusbar.policy.MobileSignalController.FiveGStateListener,packages/SystemUI/src/com/android/systemui/statusbar/policy/MobileSignalController.java,1,-1,0,{},[]
+617943,Class,com.android.server.am.ActivityStackSupervisor.PreferredAppsTask,services/core/java/com/android/server/am/ActivityStackSupervisor.java,1,-1,0,{},[]
+724248,Class,android.net.dhcp.DhcpClient.DhcpRapidCommitInitState,services/net/java/android/net/dhcp/DhcpClient.java,1,-1,0,{},[]
+820231,Class,android.net.wifi.WifiConfiguration.GroupMgmtCipher,wifi/java/android/net/wifi/WifiConfiguration.java,1,-1,0,{},[]
+820237,Class,android.net.wifi.WifiConfiguration.SuiteBCipher,wifi/java/android/net/wifi/WifiConfiguration.java,1,-1,0,{},[]

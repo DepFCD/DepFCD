@@ -1,0 +1,1705 @@
+{
+    "res": [
+        {
+            "src": {
+                "id": 229191,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.widget.ProgressBar.java",
+                "name": "ProgressBar.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/widget/ProgressBar.java",
+                "packageName": "android.widget"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 19805,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.animation.AnimatorListenerAdapter",
+                "name": "AnimatorListenerAdapter",
+                "isIntrusive": 0,
+                "File": "core/java/android/animation/AnimatorListenerAdapter.java",
+                "packageName": "android.animation",
+                "rawType": "android.animation.AnimatorListenerAdapter",
+                "modifiers": "public abstract"
+            }
+        },
+        {
+            "src": {
+                "id": 229191,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.widget.ProgressBar.java",
+                "name": "ProgressBar.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/widget/ProgressBar.java",
+                "packageName": "android.widget"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 19435,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.animation.Animator",
+                "name": "Animator",
+                "isIntrusive": 0,
+                "File": "core/java/android/animation/Animator.java",
+                "packageName": "android.animation",
+                "rawType": "android.animation.Animator",
+                "modifiers": "public abstract"
+            }
+        },
+        {
+            "src": {
+                "id": 528382,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.media.RingtoneManager.java",
+                "name": "RingtoneManager.java",
+                "isIntrusive": 0,
+                "File": "media/java/android/media/RingtoneManager.java",
+                "packageName": "android.media"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 88323,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.database.StaleDataException",
+                "name": "StaleDataException",
+                "isIntrusive": 0,
+                "File": "core/java/android/database/StaleDataException.java",
+                "packageName": "android.database",
+                "rawType": "android.database.StaleDataException",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 585782,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.settingslib.bluetooth.BluetoothEventManager.java",
+                "name": "BluetoothEventManager.java",
+                "isIntrusive": 0,
+                "File": "packages/SettingsLib/src/com/android/settingslib/bluetooth/BluetoothEventManager.java",
+                "packageName": "com.android.settingslib.bluetooth"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 85052,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.database.ContentObserver",
+                "name": "ContentObserver",
+                "isIntrusive": 0,
+                "File": "core/java/android/database/ContentObserver.java",
+                "packageName": "android.database",
+                "rawType": "android.database.ContentObserver",
+                "modifiers": "public abstract"
+            }
+        },
+        {
+            "src": {
+                "id": 585782,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.settingslib.bluetooth.BluetoothEventManager.java",
+                "name": "BluetoothEventManager.java",
+                "isIntrusive": 0,
+                "File": "packages/SettingsLib/src/com/android/settingslib/bluetooth/BluetoothEventManager.java",
+                "packageName": "com.android.settingslib.bluetooth"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 145523,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.provider.Settings",
+                "name": "Settings",
+                "isIntrusive": 1,
+                "File": "core/java/android/provider/Settings.java",
+                "packageName": "android.provider",
+                "rawType": "android.provider.Settings",
+                "modifiers": "public final",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 593525,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.settingslib.wifi.WifiStatusTracker.java",
+                "name": "WifiStatusTracker.java",
+                "isIntrusive": 0,
+                "File": "packages/SettingsLib/src/com/android/settingslib/wifi/WifiStatusTracker.java",
+                "packageName": "com.android.settingslib.wifi"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 85052,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.database.ContentObserver",
+                "name": "ContentObserver",
+                "isIntrusive": 0,
+                "File": "core/java/android/database/ContentObserver.java",
+                "packageName": "android.database",
+                "rawType": "android.database.ContentObserver",
+                "modifiers": "public abstract"
+            }
+        },
+        {
+            "src": {
+                "id": 608739,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.keyguard.KeyguardPINView.java",
+                "name": "KeyguardPINView.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/keyguard/KeyguardPINView.java",
+                "packageName": "com.android.keyguard"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 145523,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.provider.Settings",
+                "name": "Settings",
+                "isIntrusive": 1,
+                "File": "core/java/android/provider/Settings.java",
+                "packageName": "android.provider",
+                "rawType": "android.provider.Settings",
+                "modifiers": "public final",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 608739,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.keyguard.KeyguardPINView.java",
+                "name": "KeyguardPINView.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/keyguard/KeyguardPINView.java",
+                "packageName": "com.android.keyguard"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 225754,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.widget.LinearLayout",
+                "name": "LinearLayout",
+                "isIntrusive": 0,
+                "File": "core/java/android/widget/LinearLayout.java",
+                "packageName": "android.widget",
+                "rawType": "android.widget.LinearLayout",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 610592,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.keyguard.NumPadKey.java",
+                "name": "NumPadKey.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/keyguard/NumPadKey.java",
+                "packageName": "com.android.keyguard"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 145523,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.provider.Settings",
+                "name": "Settings",
+                "isIntrusive": 1,
+                "File": "core/java/android/provider/Settings.java",
+                "packageName": "android.provider",
+                "rawType": "android.provider.Settings",
+                "modifiers": "public final",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 621103,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.globalactions.GlobalActionsDialog.java",
+                "name": "GlobalActionsDialog.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/globalactions/GlobalActionsDialog.java",
+                "packageName": "com.android.systemui.globalactions"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 72124,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.content.pm.PackageManager",
+                "name": "PackageManager",
+                "isIntrusive": 0,
+                "File": "core/java/android/content/pm/PackageManager.java",
+                "packageName": "android.content.pm",
+                "rawType": "android.content.pm.PackageManager",
+                "modifiers": "public abstract"
+            }
+        },
+        {
+            "src": {
+                "id": 630970,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.qs.tileimpl.QSFactoryImpl.java",
+                "name": "QSFactoryImpl.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tileimpl/QSFactoryImpl.java",
+                "packageName": "com.android.systemui.qs.tileimpl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 632446,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.systemui.qs.tiles.SyncTile",
+                "name": "SyncTile",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tiles/SyncTile.java",
+                "packageName": "com.android.systemui.qs.tiles",
+                "rawType": "com.android.systemui.qs.tiles.SyncTile",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 630970,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.qs.tileimpl.QSFactoryImpl.java",
+                "name": "QSFactoryImpl.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tileimpl/QSFactoryImpl.java",
+                "packageName": "com.android.systemui.qs.tileimpl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 631623,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.systemui.qs.tiles.AODTile",
+                "name": "AODTile",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tiles/AODTile.java",
+                "packageName": "com.android.systemui.qs.tiles",
+                "rawType": "com.android.systemui.qs.tiles.AODTile",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 630970,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.qs.tileimpl.QSFactoryImpl.java",
+                "name": "QSFactoryImpl.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tileimpl/QSFactoryImpl.java",
+                "packageName": "com.android.systemui.qs.tileimpl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 632500,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.systemui.qs.tiles.UsbTetherTile",
+                "name": "UsbTetherTile",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tiles/UsbTetherTile.java",
+                "packageName": "com.android.systemui.qs.tiles",
+                "rawType": "com.android.systemui.qs.tiles.UsbTetherTile",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 630970,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.qs.tileimpl.QSFactoryImpl.java",
+                "name": "QSFactoryImpl.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tileimpl/QSFactoryImpl.java",
+                "packageName": "com.android.systemui.qs.tileimpl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 632211,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.systemui.qs.tiles.HeadsUpTile",
+                "name": "HeadsUpTile",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tiles/HeadsUpTile.java",
+                "packageName": "com.android.systemui.qs.tiles",
+                "rawType": "com.android.systemui.qs.tiles.HeadsUpTile",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 630970,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.qs.tileimpl.QSFactoryImpl.java",
+                "name": "QSFactoryImpl.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tileimpl/QSFactoryImpl.java",
+                "packageName": "com.android.systemui.qs.tileimpl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 631595,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.systemui.qs.tiles.AmbientDisplayTile",
+                "name": "AmbientDisplayTile",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tiles/AmbientDisplayTile.java",
+                "packageName": "com.android.systemui.qs.tiles",
+                "rawType": "com.android.systemui.qs.tiles.AmbientDisplayTile",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 630970,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.qs.tileimpl.QSFactoryImpl.java",
+                "name": "QSFactoryImpl.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tileimpl/QSFactoryImpl.java",
+                "packageName": "com.android.systemui.qs.tileimpl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 631775,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.systemui.qs.tiles.CaffeineTile",
+                "name": "CaffeineTile",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tiles/CaffeineTile.java",
+                "packageName": "com.android.systemui.qs.tiles",
+                "rawType": "com.android.systemui.qs.tiles.CaffeineTile",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 631217,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.qs.tileimpl.QSTileImpl.java",
+                "name": "QSTileImpl.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tileimpl/QSTileImpl.java",
+                "packageName": "com.android.systemui.qs.tileimpl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 145523,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.provider.Settings",
+                "name": "Settings",
+                "isIntrusive": 1,
+                "File": "core/java/android/provider/Settings.java",
+                "packageName": "android.provider",
+                "rawType": "android.provider.Settings",
+                "modifiers": "public final",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 631217,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.qs.tileimpl.QSTileImpl.java",
+                "name": "QSTileImpl.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tileimpl/QSTileImpl.java",
+                "packageName": "com.android.systemui.qs.tileimpl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 664942,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Interface",
+                "qualifiedName": "com.android.systemui.statusbar.policy.KeyguardStateController",
+                "name": "KeyguardStateController",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/KeyguardStateController.java",
+                "packageName": "com.android.systemui.statusbar.policy",
+                "rawType": "com.android.systemui.statusbar.policy.KeyguardStateController",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 631910,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.qs.tiles.CellularTile.java",
+                "name": "CellularTile.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tiles/CellularTile.java",
+                "packageName": "com.android.systemui.qs.tiles"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 590870,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.settingslib.net.DataUsageUtils",
+                "name": "DataUsageUtils",
+                "isIntrusive": 0,
+                "File": "packages/SettingsLib/src/com/android/settingslib/net/DataUsageUtils.java",
+                "packageName": "com.android.settingslib.net",
+                "rawType": "com.android.settingslib.net.DataUsageUtils",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 632045,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.qs.tiles.DataUsageDetailView.java",
+                "name": "DataUsageDetailView.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tiles/DataUsageDetailView.java",
+                "packageName": "com.android.systemui.qs.tiles"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 162703,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.text.format.Formatter",
+                "name": "Formatter",
+                "isIntrusive": 0,
+                "File": "core/java/android/text/format/Formatter.java",
+                "packageName": "android.text.format",
+                "rawType": "android.text.format.Formatter",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 632045,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.qs.tiles.DataUsageDetailView.java",
+                "name": "DataUsageDetailView.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tiles/DataUsageDetailView.java",
+                "packageName": "com.android.systemui.qs.tiles"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 161663,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.text.BidiFormatter",
+                "name": "BidiFormatter",
+                "isIntrusive": 0,
+                "File": "core/java/android/text/BidiFormatter.java",
+                "packageName": "android.text",
+                "rawType": "android.text.BidiFormatter",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 632045,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.qs.tiles.DataUsageDetailView.java",
+                "name": "DataUsageDetailView.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/qs/tiles/DataUsageDetailView.java",
+                "packageName": "com.android.systemui.qs.tiles"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 162708,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.text.format.Formatter.BytesResult",
+                "name": "BytesResult",
+                "isIntrusive": 0,
+                "File": "core/java/android/text/format/Formatter.java",
+                "packageName": "android.text.format",
+                "rawType": "android.text.format.Formatter.BytesResult",
+                "modifiers": "public static"
+            }
+        },
+        {
+            "src": {
+                "id": 634345,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.screenshot.GlobalScreenshot.java",
+                "name": "GlobalScreenshot.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/screenshot/GlobalScreenshot.java",
+                "packageName": "com.android.systemui.screenshot"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136633,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.Vibrator",
+                "name": "Vibrator",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/Vibrator.java",
+                "packageName": "android.os",
+                "rawType": "android.os.Vibrator",
+                "modifiers": "public abstract"
+            }
+        },
+        {
+            "src": {
+                "id": 634345,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.screenshot.GlobalScreenshot.java",
+                "name": "GlobalScreenshot.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/screenshot/GlobalScreenshot.java",
+                "packageName": "com.android.systemui.screenshot"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136374,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.VibrationEffect",
+                "name": "VibrationEffect",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/VibrationEffect.java",
+                "packageName": "android.os",
+                "rawType": "android.os.VibrationEffect",
+                "modifiers": "public abstract"
+            }
+        },
+        {
+            "src": {
+                "id": 634345,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.screenshot.GlobalScreenshot.java",
+                "name": "GlobalScreenshot.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/screenshot/GlobalScreenshot.java",
+                "packageName": "com.android.systemui.screenshot"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 511900,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.media.AudioManager",
+                "name": "AudioManager",
+                "isIntrusive": 0,
+                "File": "media/java/android/media/AudioManager.java",
+                "packageName": "android.media",
+                "rawType": "android.media.AudioManager",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 634345,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.screenshot.GlobalScreenshot.java",
+                "name": "GlobalScreenshot.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/screenshot/GlobalScreenshot.java",
+                "packageName": "com.android.systemui.screenshot"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 91614,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.hardware.camera2.CameraManager",
+                "name": "CameraManager",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/CameraManager.java",
+                "packageName": "android.hardware.camera2",
+                "rawType": "android.hardware.camera2.CameraManager",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 634345,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.screenshot.GlobalScreenshot.java",
+                "name": "GlobalScreenshot.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/screenshot/GlobalScreenshot.java",
+                "packageName": "com.android.systemui.screenshot"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 134808,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 656029,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.phone.NavigationBarView.java",
+                "name": "NavigationBarView.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/phone/NavigationBarView.java",
+                "packageName": "com.android.systemui.statusbar.phone"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 145523,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.provider.Settings",
+                "name": "Settings",
+                "isIntrusive": 1,
+                "File": "core/java/android/provider/Settings.java",
+                "packageName": "android.provider",
+                "rawType": "android.provider.Settings",
+                "modifiers": "public final",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 656029,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.phone.NavigationBarView.java",
+                "name": "NavigationBarView.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/phone/NavigationBarView.java",
+                "packageName": "com.android.systemui.statusbar.phone"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 85052,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.database.ContentObserver",
+                "name": "ContentObserver",
+                "isIntrusive": 0,
+                "File": "core/java/android/database/ContentObserver.java",
+                "packageName": "android.database",
+                "rawType": "android.database.ContentObserver",
+                "modifiers": "public abstract"
+            }
+        },
+        {
+            "src": {
+                "id": 656029,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.phone.NavigationBarView.java",
+                "name": "NavigationBarView.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/phone/NavigationBarView.java",
+                "packageName": "com.android.systemui.statusbar.phone"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 606192,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Method",
+                "qualifiedName": "com.android.systemui.shared.system.QuickStepContract.isLegacyMode",
+                "name": "isLegacyMode",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/shared/src/com/android/systemui/shared/system/QuickStepContract.java",
+                "packageName": "com.android.systemui.shared.system",
+                "parameterTypes": "int",
+                "parameterNames": "mode",
+                "rawType": "boolean",
+                "modifiers": "public static"
+            }
+        },
+        {
+            "src": {
+                "id": 659307,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.phone.PhoneStatusBarPolicy.java",
+                "name": "PhoneStatusBarPolicy.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/phone/PhoneStatusBarPolicy.java",
+                "packageName": "com.android.systemui.statusbar.phone"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 586065,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.settingslib.bluetooth.CachedBluetoothDevice",
+                "name": "CachedBluetoothDevice",
+                "isIntrusive": 0,
+                "File": "packages/SettingsLib/src/com/android/settingslib/bluetooth/CachedBluetoothDevice.java",
+                "packageName": "com.android.settingslib.bluetooth",
+                "rawType": "com.android.settingslib.bluetooth.CachedBluetoothDevice",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 659307,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.phone.PhoneStatusBarPolicy.java",
+                "name": "PhoneStatusBarPolicy.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/phone/PhoneStatusBarPolicy.java",
+                "packageName": "com.android.systemui.statusbar.phone"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 57056,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.bluetooth.BluetoothDevice",
+                "name": "BluetoothDevice",
+                "isIntrusive": 1,
+                "File": "core/java/android/bluetooth/BluetoothDevice.java",
+                "packageName": "android.bluetooth",
+                "rawType": "android.bluetooth.BluetoothDevice",
+                "modifiers": "public final",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 666217,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.SecurityControllerImpl.java",
+                "name": "SecurityControllerImpl.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/SecurityControllerImpl.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 145523,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.provider.Settings",
+                "name": "Settings",
+                "isIntrusive": 1,
+                "File": "core/java/android/provider/Settings.java",
+                "packageName": "android.provider",
+                "rawType": "android.provider.Settings",
+                "modifiers": "public final",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 688331,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.networkstack.tethering.Tethering.java",
+                "name": "Tethering.java",
+                "isIntrusive": 0,
+                "File": "packages/Tethering/src/com/android/networkstack/tethering/Tethering.java",
+                "packageName": "com.android.networkstack.tethering"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 85052,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.database.ContentObserver",
+                "name": "ContentObserver",
+                "isIntrusive": 0,
+                "File": "core/java/android/database/ContentObserver.java",
+                "packageName": "android.database",
+                "rawType": "android.database.ContentObserver",
+                "modifiers": "public abstract"
+            }
+        },
+        {
+            "src": {
+                "id": 688331,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.networkstack.tethering.Tethering.java",
+                "name": "Tethering.java",
+                "isIntrusive": 0,
+                "File": "packages/Tethering/src/com/android/networkstack/tethering/Tethering.java",
+                "packageName": "com.android.networkstack.tethering"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 115082,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.net.NetworkCapabilities.NET_CAPABILITY_NOT_VPN",
+                "name": "NET_CAPABILITY_NOT_VPN",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/NetworkCapabilities.java",
+                "packageName": "android.net",
+                "rawType": "int",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 689292,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.networkstack.tethering.UpstreamNetworkMonitor.java",
+                "name": "UpstreamNetworkMonitor.java",
+                "isIntrusive": 0,
+                "File": "packages/Tethering/src/com/android/networkstack/tethering/UpstreamNetworkMonitor.java",
+                "packageName": "com.android.networkstack.tethering"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 145523,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.provider.Settings",
+                "name": "Settings",
+                "isIntrusive": 1,
+                "File": "core/java/android/provider/Settings.java",
+                "packageName": "android.provider",
+                "rawType": "android.provider.Settings",
+                "modifiers": "public final",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 689292,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.networkstack.tethering.UpstreamNetworkMonitor.java",
+                "name": "UpstreamNetworkMonitor.java",
+                "isIntrusive": 0,
+                "File": "packages/Tethering/src/com/android/networkstack/tethering/UpstreamNetworkMonitor.java",
+                "packageName": "com.android.networkstack.tethering"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 135557,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.UserHandle",
+                "name": "UserHandle",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/UserHandle.java",
+                "packageName": "android.os",
+                "rawType": "android.os.UserHandle",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 750030,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.connectivity.DnsManager.java",
+                "name": "DnsManager.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/connectivity/DnsManager.java",
+                "packageName": "com.android.server.connectivity"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 110978,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.net.ConnectivityManager.PRIVATE_DNS_MODE_CLOUDFLARE",
+                "name": "PRIVATE_DNS_MODE_CLOUDFLARE",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/ConnectivityManager.java",
+                "packageName": "android.net",
+                "rawType": "String",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 750030,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.connectivity.DnsManager.java",
+                "name": "DnsManager.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/connectivity/DnsManager.java",
+                "packageName": "com.android.server.connectivity"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 110981,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.net.ConnectivityManager.PRIVATE_DNS_SPECIFIER_CLOUDFLARE",
+                "name": "PRIVATE_DNS_SPECIFIER_CLOUDFLARE",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/ConnectivityManager.java",
+                "packageName": "android.net",
+                "rawType": "String",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 752545,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.ConnectivityService.java",
+                "name": "ConnectivityService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/ConnectivityService.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 134177,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.StrictMode",
+                "name": "StrictMode",
+                "isIntrusive": 1,
+                "File": "core/java/android/os/StrictMode.java",
+                "packageName": "android.os",
+                "rawType": "android.os.StrictMode",
+                "modifiers": "public final",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 752545,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.ConnectivityService.java",
+                "name": "ConnectivityService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/ConnectivityService.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 178729,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.SparseBooleanArray",
+                "name": "SparseBooleanArray",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/SparseBooleanArray.java",
+                "packageName": "android.util",
+                "rawType": "android.util.SparseBooleanArray",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 787479,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.net.NetworkPolicyLogger.java",
+                "name": "NetworkPolicyLogger.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/net/NetworkPolicyLogger.java",
+                "packageName": "com.android.server.net"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 115732,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.net.NetworkPolicyManager.FIREWALL_CHAIN_NAME_ISOLATED",
+                "name": "FIREWALL_CHAIN_NAME_ISOLATED",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/NetworkPolicyManager.java",
+                "packageName": "android.net",
+                "rawType": "String",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 787685,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.net.NetworkPolicyManagerInternal.java",
+                "name": "NetworkPolicyManagerInternal.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/net/NetworkPolicyManagerInternal.java",
+                "packageName": "com.android.server.net"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 788952,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Method",
+                "qualifiedName": "com.android.server.net.NetworkPolicyManagerService.isNetworkingIsolatedByUidRulesInternal",
+                "name": "isNetworkingIsolatedByUidRulesInternal",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/net/NetworkPolicyManagerService.java",
+                "packageName": "com.android.server.net",
+                "parameterTypes": "int",
+                "parameterNames": "uidRules",
+                "rawType": "boolean",
+                "modifiers": "static"
+            }
+        },
+        {
+            "src": {
+                "id": 787725,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.net.NetworkPolicyManagerService.java",
+                "name": "NetworkPolicyManagerService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/net/NetworkPolicyManagerService.java",
+                "packageName": "com.android.server.net"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 115715,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.net.NetworkPolicyManager.POLICY_REJECT_VPN",
+                "name": "POLICY_REJECT_VPN",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/NetworkPolicyManager.java",
+                "packageName": "android.net",
+                "rawType": "int",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 787725,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.net.NetworkPolicyManagerService.java",
+                "name": "NetworkPolicyManagerService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/net/NetworkPolicyManagerService.java",
+                "packageName": "com.android.server.net"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 115717,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.net.NetworkPolicyManager.POLICY_REJECT_ALL",
+                "name": "POLICY_REJECT_ALL",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/NetworkPolicyManager.java",
+                "packageName": "android.net",
+                "rawType": "int",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 787725,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.net.NetworkPolicyManagerService.java",
+                "name": "NetworkPolicyManagerService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/net/NetworkPolicyManagerService.java",
+                "packageName": "com.android.server.net"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 115724,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.net.NetworkPolicyManager.RULE_REJECT_ISOLATED",
+                "name": "RULE_REJECT_ISOLATED",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/NetworkPolicyManager.java",
+                "packageName": "android.net",
+                "rawType": "int",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 787725,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.net.NetworkPolicyManagerService.java",
+                "name": "NetworkPolicyManagerService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/net/NetworkPolicyManagerService.java",
+                "packageName": "com.android.server.net"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 115716,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.net.NetworkPolicyManager.POLICY_REJECT_WIFI",
+                "name": "POLICY_REJECT_WIFI",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/NetworkPolicyManager.java",
+                "packageName": "android.net",
+                "rawType": "int",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 787725,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.net.NetworkPolicyManagerService.java",
+                "name": "NetworkPolicyManagerService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/net/NetworkPolicyManagerService.java",
+                "packageName": "com.android.server.net"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 787509,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "com.android.server.net.NetworkPolicyLogger.NTWK_BLOCKED_ISOLATED",
+                "name": "NTWK_BLOCKED_ISOLATED",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/net/NetworkPolicyLogger.java",
+                "packageName": "com.android.server.net",
+                "rawType": "int",
+                "modifiers": "static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 787725,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.net.NetworkPolicyManagerService.java",
+                "name": "NetworkPolicyManagerService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/net/NetworkPolicyManagerService.java",
+                "packageName": "com.android.server.net"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 115714,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.net.NetworkPolicyManager.POLICY_REJECT_CELLULAR",
+                "name": "POLICY_REJECT_CELLULAR",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/NetworkPolicyManager.java",
+                "packageName": "android.net",
+                "rawType": "int",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 790915,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.NetworkManagementService.java",
+                "name": "NetworkManagementService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/NetworkManagementService.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 113119,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.net.LinkProperties",
+                "name": "LinkProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/LinkProperties.java",
+                "packageName": "android.net",
+                "rawType": "android.net.LinkProperties",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 790915,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.NetworkManagementService.java",
+                "name": "NetworkManagementService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/NetworkManagementService.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 145523,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.provider.Settings",
+                "name": "Settings",
+                "isIntrusive": 1,
+                "File": "core/java/android/provider/Settings.java",
+                "packageName": "android.provider",
+                "rawType": "android.provider.Settings",
+                "modifiers": "public final",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 790915,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.NetworkManagementService.java",
+                "name": "NetworkManagementService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/NetworkManagementService.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 115950,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.net.NetworkRequest",
+                "name": "NetworkRequest",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/NetworkRequest.java",
+                "packageName": "android.net",
+                "rawType": "android.net.NetworkRequest",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 790915,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.NetworkManagementService.java",
+                "name": "NetworkManagementService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/NetworkManagementService.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 115053,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.net.NetworkCapabilities",
+                "name": "NetworkCapabilities",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/NetworkCapabilities.java",
+                "packageName": "android.net",
+                "rawType": "android.net.NetworkCapabilities",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 790915,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.NetworkManagementService.java",
+                "name": "NetworkManagementService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/NetworkManagementService.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 85052,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.database.ContentObserver",
+                "name": "ContentObserver",
+                "isIntrusive": 0,
+                "File": "core/java/android/database/ContentObserver.java",
+                "packageName": "android.database",
+                "rawType": "android.database.ContentObserver",
+                "modifiers": "public abstract"
+            }
+        },
+        {
+            "src": {
+                "id": 790915,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.NetworkManagementService.java",
+                "name": "NetworkManagementService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/NetworkManagementService.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 115732,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.net.NetworkPolicyManager.FIREWALL_CHAIN_NAME_ISOLATED",
+                "name": "FIREWALL_CHAIN_NAME_ISOLATED",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/NetworkPolicyManager.java",
+                "packageName": "android.net",
+                "rawType": "String",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 827297,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.policy.keyguard.KeyguardStateMonitor.java",
+                "name": "KeyguardStateMonitor.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/policy/keyguard/KeyguardStateMonitor.java",
+                "packageName": "com.android.server.policy.keyguard"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 134808,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 938607,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.usb.UsbDeviceManager.java",
+                "name": "UsbDeviceManager.java",
+                "isIntrusive": 0,
+                "File": "services/usb/java/com/android/server/usb/UsbDeviceManager.java",
+                "packageName": "com.android.server.usb"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 124825,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.Build",
+                "name": "Build",
+                "isIntrusive": 1,
+                "File": "core/java/android/os/Build.java",
+                "packageName": "android.os",
+                "rawType": "android.os.Build",
+                "modifiers": "public",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        }
+    ]
+}

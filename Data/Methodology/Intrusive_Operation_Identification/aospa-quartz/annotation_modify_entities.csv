@@ -1,0 +1,2 @@
+id,category,qualifiedName,file_path,not_aosp,old_aosp,isIntrusive,intrusiveModify,refactor
+40670,Variable,android.bluetooth.BluetoothHeadset.mService,core/java/android/bluetooth/BluetoothHeadset.java,0,-1,1,"{'annotation_modify': ""[]-['com.android.internal.annotations.GuardedBy']"", 'class_var_modify': '-'}",[]

@@ -1,0 +1,2 @@
+id,category,qualifiedName,file_path,not_aosp,old_aosp,isIntrusive,intrusiveModify,refactor
+729096,Variable,com.android.systemui.tuner.TunerServiceImpl.addTunable.uri,packages/SystemUI/src/com/android/systemui/tuner/TunerServiceImpl.java,0,-1,1,"{'final_modify': '-final', 'method_var_modify': '-'}",[]

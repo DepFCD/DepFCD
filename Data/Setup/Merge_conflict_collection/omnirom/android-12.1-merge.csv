@@ -1,0 +1,2 @@
+Merge,Conflicts,Javas,AST
+d55451f69f9b28590f6703550c548800748146b1,1,1,"[['packages/SystemUI/src/com/android/systemui/statusbar/phone/fragment/CollapsedStatusBarFragment.java', [[193, 197, 5, 22, ['<com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment: void onViewCreated(View,Bundle)>#178#208']]], [[206, 206, 1, 1, ['<com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment: void onViewCreated(View,Bundle)>#191#217']]]]]"

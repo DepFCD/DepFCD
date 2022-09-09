@@ -1,11 +1,49 @@
 # Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization
-This project contains the data and scripts of work `Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization`. The directory is conducted as following, which is corresponding to the work.
+This project contains the data and scripts of our ICSE 2023 under-reviewed work —— `Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization`. The directory is conducted as following, which is corresponding to the work.
+Due to page limit, we attach `Threats` Section <here>. For industrial data, beacuse of the security problem and file size limit of GitHub, we only upload key data and scripts here. 
 
-## Tools and scripts
+The whole directory goes like following:
+```
+│  README.md
+│  
+├─Data
+│  ├─Methodology
+│  │  ├─ENtity_and_Dependency_Extraction
+│  │  ├─Entity_Ownership_Identification      
+│  │  └─Restriction_Level_Labeling 
+│  ├─Results
+│  │  ├─RQ1    
+│  │  ├─RQ2
+│  │  ├─RQ3
+│  │  └─RQ4
+│  │          
+│  └─Setup
+│      ├─Merge_conflict_collection
+│      │  ├─aospa
+│      │  ├─calyx
+│      │  ├─lineage
+│      │  └─omnirom
+│      │          
+│      └─Subject_and_version_collection
+│          ├─aospa
+│          ├─calyx
+│          ├─lineage
+│          └─omnirom
+│                  
+├─Method
+│  │  dep_facade.exe
+│  │  enre_java.jar
+│  │  
+│  └─ref_tool
+│              
+└─Scripts
+    ├─RQ_scripts
+    └─setup_scripts
+```
 
-### The detection of Dependency facade
+## Method
 
-#### Entity and Dependency Extraction
+### Entity and Dependency Extraction
 
 - `enre_java.jar` - a static code analysis tool to produce dependencies graphs.
 
@@ -13,11 +51,11 @@ This project contains the data and scripts of work `Dependency Facade: The Coupl
 
 - command:
 
-  ```powershell
-  java -jar enre_java.jar java D:\LineageOS\base\services\core\java\com\android\server lineage -hd hiddenapi-flags-lineage18.csv
-  ```
+```powershell
+java -jar enre_java.jar java <local_path_to_repo\LineageOS\base\services\core\java\com\android\server> lineage -hd hiddenapi-flags-lineage18.csv
+```
 
-#### Entity Ownership  and Intrusive Operation Identification
+### Entity Ownership  and Intrusive Operation Identification
 
 - `dep_facade.exe` - a dependency facade analysis tool to detect entities' ownership and intrusive operation in dependencies  graph and in this tool we encapsulate the tool `RefactoringMiner`
   - `ref_tool\lib\RefactoringMiner-2.2.0.jar` - the refactoring infomation detection tool, there are some `jar` required for the tool in the `ref_tool\lib` directory
@@ -26,15 +64,17 @@ This project contains the data and scripts of work `Dependency Facade: The Coupl
 - command:
 
 ```powershell
-dep_facade.exe -cc D:\LineageOS\base -ca D:\android\base -c D:\LineageOS\lineage.json -a D:\android\android.json -ref ref_tool\bin\RefactoringMiner -o D:\LineageOS\res
+dep_facade.exe -cc <local_path_to_downstream_repo\LineageOS\base> -ca <local_path_to_upstream_repo\android\base> -c <path_to_downstream_dependency_graph, i.e. D:\LineageOS\lineage.json> -a <path_to_upstream_dependency_graph, i.e. D:\android\android.json> -ref ref_tool\bin\RefactoringMiner -o <output_path>
 ```
 
 During the detecting process，we need to acquire all commits history of AOSP all versions，which is time-consuming. To save some time，you can pust the `all_base_commits.csv` which is provided by Section `data\Methodology\The detection of Dependency facade \Entity Ownership Identification`.
 
 For the WARNING which is related to `log4j` during the execulting process is ignorable. 
 
+## Scripts
+
 ### Set up
-We use the following scirpts to get the merge points and conflicts, most of them are from https://zenodo.org/record/6272071#.Yxg_OWhBw_E.
+We use the following scripts to get the merge points and conflicts, most of them are from https://zenodo.org/record/6272071#.Yxg_OWhBw_E.
 To executing them, users need to satisfy following steps.
 1. Clone corresponding customized Android Frameworks into directory platforms.
 2. Retrieve commit history of customized Android Frameworks and store into directory history.
@@ -123,6 +163,8 @@ This directory contains the preliminary data to conduct following experiments an
 
 #### Subject and Version Collection
 This directory contains merge points which downstream project version merging upstream AOSP
+
+- `<project name>-<version>-merge.csv` - the merge points of current downstream project version which contains merge commit, both upstream and downstream's parent commits and branches.
 
 #### Merge Conflict Collection
 This directory contains data of textual conflicts detection results of each project versions and details of manually selected conflict blocks.

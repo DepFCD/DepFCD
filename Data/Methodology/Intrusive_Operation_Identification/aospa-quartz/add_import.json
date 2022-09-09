@@ -1,0 +1,3187 @@
+{
+    "res": [
+        {
+            "src": {
+                "id": 12947,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.app.ActivityThread.java",
+                "name": "ActivityThread.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/app/ActivityThread.java",
+                "packageName": "android.app"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 50295,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.content.pm.ApplicationInfo.java",
+                "name": "ApplicationInfo.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/content/pm/ApplicationInfo.java",
+                "packageName": "android.content.pm"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136902,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.DisplayMetrics",
+                "name": "DisplayMetrics",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/DisplayMetrics.java",
+                "packageName": "android.util",
+                "rawType": "android.util.DisplayMetrics",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 50295,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.content.pm.ApplicationInfo.java",
+                "name": "ApplicationInfo.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/content/pm/ApplicationInfo.java",
+                "packageName": "android.content.pm"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 57816,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.content.res.CompatibilityInfo.java",
+                "name": "CompatibilityInfo.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/content/res/CompatibilityInfo.java",
+                "packageName": "android.content.res"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 138149,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.Log",
+                "name": "Log",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/Log.java",
+                "packageName": "android.util",
+                "rawType": "android.util.Log",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 65631,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.Camera.java",
+                "name": "Camera.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/Camera.java",
+                "packageName": "android.hardware"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 65631,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.Camera.java",
+                "name": "Camera.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/Camera.java",
+                "packageName": "android.hardware"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 67062,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.camera2.CameraManager.java",
+                "name": "CameraManager.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/CameraManager.java",
+                "packageName": "android.hardware.camera2"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 12951,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.app.ActivityThread",
+                "name": "ActivityThread",
+                "isIntrusive": 1,
+                "File": "core/java/android/app/ActivityThread.java",
+                "packageName": "android.app",
+                "rawType": "android.app.ActivityThread",
+                "modifiers": "public final",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 67062,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.camera2.CameraManager.java",
+                "name": "CameraManager.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/CameraManager.java",
+                "packageName": "android.hardware.camera2"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 132026,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.text.TextUtils",
+                "name": "TextUtils",
+                "isIntrusive": 0,
+                "File": "core/java/android/text/TextUtils.java",
+                "packageName": "android.text",
+                "rawType": "android.text.TextUtils",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 68339,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.camera2.impl.CameraConstrainedHighSpeedCaptureSessionImpl.java",
+                "name": "CameraConstrainedHighSpeedCaptureSessionImpl.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/impl/CameraConstrainedHighSpeedCaptureSessionImpl.java",
+                "packageName": "android.hardware.camera2.impl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 140477,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.Size",
+                "name": "Size",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/Size.java",
+                "packageName": "android.util",
+                "rawType": "android.util.Size",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 68339,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.camera2.impl.CameraConstrainedHighSpeedCaptureSessionImpl.java",
+                "name": "CameraConstrainedHighSpeedCaptureSessionImpl.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/impl/CameraConstrainedHighSpeedCaptureSessionImpl.java",
+                "packageName": "android.hardware.camera2.impl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 72289,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.hardware.camera2.params.HighSpeedVideoConfiguration",
+                "name": "HighSpeedVideoConfiguration",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/params/HighSpeedVideoConfiguration.java",
+                "packageName": "android.hardware.camera2.params",
+                "rawType": "android.hardware.camera2.params.HighSpeedVideoConfiguration",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 68449,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.camera2.impl.CameraDeviceImpl.java",
+                "name": "CameraDeviceImpl.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/impl/CameraDeviceImpl.java",
+                "packageName": "android.hardware.camera2.impl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 68449,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.camera2.impl.CameraDeviceImpl.java",
+                "name": "CameraDeviceImpl.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/impl/CameraDeviceImpl.java",
+                "packageName": "android.hardware.camera2.impl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 132026,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.text.TextUtils",
+                "name": "TextUtils",
+                "isIntrusive": 0,
+                "File": "core/java/android/text/TextUtils.java",
+                "packageName": "android.text",
+                "rawType": "android.text.TextUtils",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 68449,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.camera2.impl.CameraDeviceImpl.java",
+                "name": "CameraDeviceImpl.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/impl/CameraDeviceImpl.java",
+                "packageName": "android.hardware.camera2.impl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 12951,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.app.ActivityThread",
+                "name": "ActivityThread",
+                "isIntrusive": 1,
+                "File": "core/java/android/app/ActivityThread.java",
+                "packageName": "android.app",
+                "rawType": "android.app.ActivityThread",
+                "modifiers": "public final",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 68449,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.camera2.impl.CameraDeviceImpl.java",
+                "name": "CameraDeviceImpl.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/impl/CameraDeviceImpl.java",
+                "packageName": "android.hardware.camera2.impl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 434479,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.graphics.ImageFormat",
+                "name": "ImageFormat",
+                "isIntrusive": 0,
+                "File": "graphics/java/android/graphics/ImageFormat.java",
+                "packageName": "android.graphics",
+                "rawType": "android.graphics.ImageFormat",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 68449,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.camera2.impl.CameraDeviceImpl.java",
+                "name": "CameraDeviceImpl.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/impl/CameraDeviceImpl.java",
+                "packageName": "android.hardware.camera2.impl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 66667,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.hardware.camera2.CameraAccessException.CAMERA_IN_USE",
+                "name": "CAMERA_IN_USE",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/CameraAccessException.java",
+                "packageName": "android.hardware.camera2",
+                "rawType": "int",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 68449,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.camera2.impl.CameraDeviceImpl.java",
+                "name": "CameraDeviceImpl.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/impl/CameraDeviceImpl.java",
+                "packageName": "android.hardware.camera2.impl"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 66667,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.hardware.camera2.CameraAccessException.CAMERA_IN_USE",
+                "name": "CAMERA_IN_USE",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/CameraAccessException.java",
+                "packageName": "android.hardware.camera2",
+                "rawType": "int",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 73178,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.camera2.utils.SurfaceUtils.java",
+                "name": "SurfaceUtils.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/utils/SurfaceUtils.java",
+                "packageName": "android.hardware.camera2.utils"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 132026,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.text.TextUtils",
+                "name": "TextUtils",
+                "isIntrusive": 0,
+                "File": "core/java/android/text/TextUtils.java",
+                "packageName": "android.text",
+                "rawType": "android.text.TextUtils",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 73178,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.camera2.utils.SurfaceUtils.java",
+                "name": "SurfaceUtils.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/utils/SurfaceUtils.java",
+                "packageName": "android.hardware.camera2.utils"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 12951,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.app.ActivityThread",
+                "name": "ActivityThread",
+                "isIntrusive": 1,
+                "File": "core/java/android/app/ActivityThread.java",
+                "packageName": "android.app",
+                "rawType": "android.app.ActivityThread",
+                "modifiers": "public final",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 73178,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.hardware.camera2.utils.SurfaceUtils.java",
+                "name": "SurfaceUtils.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/hardware/camera2/utils/SurfaceUtils.java",
+                "packageName": "android.hardware.camera2.utils"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 135343,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.util.apk.ApkSignatureVerifier.java",
+                "name": "ApkSignatureVerifier.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/apk/ApkSignatureVerifier.java",
+                "packageName": "android.util.apk"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 135963,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.ArrayMap",
+                "name": "ArrayMap",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/ArrayMap.java",
+                "packageName": "android.util",
+                "rawType": "android.util.ArrayMap",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 135343,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.util.apk.ApkSignatureVerifier.java",
+                "name": "ApkSignatureVerifier.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/apk/ApkSignatureVerifier.java",
+                "packageName": "android.util.apk"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 140518,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.Slog",
+                "name": "Slog",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/Slog.java",
+                "packageName": "android.util",
+                "rawType": "android.util.Slog",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 135343,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.util.apk.ApkSignatureVerifier.java",
+                "name": "ApkSignatureVerifier.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/apk/ApkSignatureVerifier.java",
+                "packageName": "android.util.apk"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 139068,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.util.NtpTrustedTime.java",
+                "name": "NtpTrustedTime.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/NtpTrustedTime.java",
+                "packageName": "android.util"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 164025,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.view.ViewRootImpl.java",
+                "name": "ViewRootImpl.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/view/ViewRootImpl.java",
+                "packageName": "android.view"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 170295,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.widget.AbsListView.java",
+                "name": "AbsListView.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/widget/AbsListView.java",
+                "packageName": "android.widget"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 182997,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.widget.ListView.java",
+                "name": "ListView.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/widget/ListView.java",
+                "packageName": "android.widget"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 96386,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.Handler",
+                "name": "Handler",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/Handler.java",
+                "packageName": "android.os",
+                "rawType": "android.os.Handler",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 184821,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.widget.OverScroller.java",
+                "name": "OverScroller.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/widget/OverScroller.java",
+                "packageName": "android.widget"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 184821,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.widget.OverScroller.java",
+                "name": "OverScroller.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/widget/OverScroller.java",
+                "packageName": "android.widget"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 188844,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.widget.Scroller.java",
+                "name": "Scroller.java",
+                "isIntrusive": 0,
+                "File": "core/java/android/widget/Scroller.java",
+                "packageName": "android.widget"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 508673,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.settingslib.bluetooth.CachedBluetoothDevice.java",
+                "name": "CachedBluetoothDevice.java",
+                "isIntrusive": 0,
+                "File": "packages/SettingsLib/src/com/android/settingslib/bluetooth/CachedBluetoothDevice.java",
+                "packageName": "com.android.settingslib.bluetooth"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 509466,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.settingslib.bluetooth.LocalBluetoothProfileManager.java",
+                "name": "LocalBluetoothProfileManager.java",
+                "isIntrusive": 0,
+                "File": "packages/SettingsLib/src/com/android/settingslib/bluetooth/LocalBluetoothProfileManager.java",
+                "packageName": "com.android.settingslib.bluetooth"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 509466,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.settingslib.bluetooth.LocalBluetoothProfileManager.java",
+                "name": "LocalBluetoothProfileManager.java",
+                "isIntrusive": 0,
+                "File": "packages/SettingsLib/src/com/android/settingslib/bluetooth/LocalBluetoothProfileManager.java",
+                "packageName": "com.android.settingslib.bluetooth"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 39680,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.bluetooth.BluetoothDun",
+                "name": "BluetoothDun",
+                "isIntrusive": 0,
+                "File": "core/java/android/bluetooth/BluetoothDun.java",
+                "packageName": "android.bluetooth",
+                "rawType": "android.bluetooth.BluetoothDun",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 524896,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.keyguard.CarrierText.java",
+                "name": "CarrierText.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/keyguard/CarrierText.java",
+                "packageName": "com.android.keyguard"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 564072,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.systemui.statusbar.policy.FiveGServiceClient",
+                "name": "FiveGServiceClient",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/FiveGServiceClient.java",
+                "packageName": "com.android.systemui.statusbar.policy",
+                "rawType": "com.android.systemui.statusbar.policy.FiveGServiceClient",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 524896,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.keyguard.CarrierText.java",
+                "name": "CarrierText.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/keyguard/CarrierText.java",
+                "packageName": "com.android.keyguard"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 564095,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.systemui.statusbar.policy.FiveGServiceClient.FiveGServiceState",
+                "name": "FiveGServiceState",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/FiveGServiceClient.java",
+                "packageName": "com.android.systemui.statusbar.policy",
+                "rawType": "com.android.systemui.statusbar.policy.FiveGServiceClient.FiveGServiceState",
+                "modifiers": "public static"
+            }
+        },
+        {
+            "src": {
+                "id": 525030,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.keyguard.EmergencyButton.java",
+                "name": "EmergencyButton.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/keyguard/EmergencyButton.java",
+                "packageName": "com.android.keyguard"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 138149,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.Log",
+                "name": "Log",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/Log.java",
+                "packageName": "android.util",
+                "rawType": "android.util.Log",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 525030,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.keyguard.EmergencyButton.java",
+                "name": "EmergencyButton.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/keyguard/EmergencyButton.java",
+                "packageName": "com.android.keyguard"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 773971,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.telephony.ServiceState",
+                "name": "ServiceState",
+                "isIntrusive": 0,
+                "File": "telephony/java/android/telephony/ServiceState.java",
+                "packageName": "android.telephony",
+                "rawType": "android.telephony.ServiceState",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 527155,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.keyguard.KeyguardUpdateMonitorCallback.java",
+                "name": "KeyguardUpdateMonitorCallback.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/keyguard/KeyguardUpdateMonitorCallback.java",
+                "packageName": "com.android.keyguard"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 773971,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.telephony.ServiceState",
+                "name": "ServiceState",
+                "isIntrusive": 0,
+                "File": "telephony/java/android/telephony/ServiceState.java",
+                "packageName": "android.telephony",
+                "rawType": "android.telephony.ServiceState",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 555661,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.phone.KeyguardBottomAreaView.java",
+                "name": "KeyguardBottomAreaView.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/phone/KeyguardBottomAreaView.java",
+                "packageName": "com.android.systemui.statusbar.phone"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 525093,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.keyguard.EmergencyCarrierArea",
+                "name": "EmergencyCarrierArea",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/keyguard/EmergencyCarrierArea.java",
+                "packageName": "com.android.keyguard",
+                "rawType": "com.android.keyguard.EmergencyCarrierArea",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 559063,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.phone.PanelView.java",
+                "name": "PanelView.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/phone/PanelView.java",
+                "packageName": "com.android.systemui.statusbar.phone"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 555279,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.systemui.statusbar.phone.HeadsUpManagerPhone",
+                "name": "HeadsUpManagerPhone",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/phone/HeadsUpManagerPhone.java",
+                "packageName": "com.android.systemui.statusbar.phone",
+                "rawType": "com.android.systemui.statusbar.phone.HeadsUpManagerPhone",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 559063,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.phone.PanelView.java",
+                "name": "PanelView.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/phone/PanelView.java",
+                "packageName": "com.android.systemui.statusbar.phone"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 561797,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.phone.StatusBarIconList.java",
+                "name": "StatusBarIconList.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/phone/StatusBarIconList.java",
+                "packageName": "com.android.systemui.statusbar.phone"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 775193,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.telephony.SubscriptionManager",
+                "name": "SubscriptionManager",
+                "isIntrusive": 1,
+                "File": "telephony/java/android/telephony/SubscriptionManager.java",
+                "packageName": "android.telephony",
+                "rawType": "android.telephony.SubscriptionManager",
+                "modifiers": "public",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 565050,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.MobileSignalController.java",
+                "name": "MobileSignalController.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/MobileSignalController.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 49425,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.content.IntentFilter",
+                "name": "IntentFilter",
+                "isIntrusive": 0,
+                "File": "core/java/android/content/IntentFilter.java",
+                "packageName": "android.content",
+                "rawType": "android.content.IntentFilter",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 565050,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.MobileSignalController.java",
+                "name": "MobileSignalController.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/MobileSignalController.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 564095,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.systemui.statusbar.policy.FiveGServiceClient.FiveGServiceState",
+                "name": "FiveGServiceState",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/FiveGServiceClient.java",
+                "packageName": "com.android.systemui.statusbar.policy",
+                "rawType": "com.android.systemui.statusbar.policy.FiveGServiceClient.FiveGServiceState",
+                "modifiers": "public static"
+            }
+        },
+        {
+            "src": {
+                "id": 565050,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.MobileSignalController.java",
+                "name": "MobileSignalController.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/MobileSignalController.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 769060,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.telephony.ims.feature.MmTelFeature",
+                "name": "MmTelFeature",
+                "isIntrusive": 1,
+                "File": "telephony/java/android/telephony/ims/feature/MmTelFeature.java",
+                "packageName": "android.telephony.ims.feature",
+                "rawType": "android.telephony.ims.feature.MmTelFeature",
+                "modifiers": "public",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 565050,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.MobileSignalController.java",
+                "name": "MobileSignalController.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/MobileSignalController.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 44795,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.content.BroadcastReceiver",
+                "name": "BroadcastReceiver",
+                "isIntrusive": 0,
+                "File": "core/java/android/content/BroadcastReceiver.java",
+                "packageName": "android.content",
+                "rawType": "android.content.BroadcastReceiver",
+                "modifiers": "public abstract"
+            }
+        },
+        {
+            "src": {
+                "id": 565050,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.MobileSignalController.java",
+                "name": "MobileSignalController.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/MobileSignalController.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 58514,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.content.res.Resources",
+                "name": "Resources",
+                "isIntrusive": 0,
+                "File": "core/java/android/content/res/Resources.java",
+                "packageName": "android.content.res",
+                "rawType": "android.content.res.Resources",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 565050,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.MobileSignalController.java",
+                "name": "MobileSignalController.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/MobileSignalController.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 777657,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.ims.ImsException",
+                "name": "ImsException",
+                "isIntrusive": 0,
+                "File": "telephony/java/com/android/ims/ImsException.java",
+                "packageName": "com.android.ims",
+                "rawType": "com.android.ims.ImsException",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 565050,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.MobileSignalController.java",
+                "name": "MobileSignalController.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/MobileSignalController.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 780797,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.internal.telephony.PhoneConstants",
+                "name": "PhoneConstants",
+                "isIntrusive": 0,
+                "File": "telephony/java/com/android/internal/telephony/PhoneConstants.java",
+                "packageName": "com.android.internal.telephony",
+                "rawType": "com.android.internal.telephony.PhoneConstants",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 565050,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.MobileSignalController.java",
+                "name": "MobileSignalController.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/MobileSignalController.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 564242,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Interface",
+                "qualifiedName": "com.android.systemui.statusbar.policy.FiveGServiceClient.IFiveGStateListener",
+                "name": "IFiveGStateListener",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/FiveGServiceClient.java",
+                "packageName": "com.android.systemui.statusbar.policy",
+                "rawType": "com.android.systemui.statusbar.policy.FiveGServiceClient.IFiveGStateListener",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 565050,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.MobileSignalController.java",
+                "name": "MobileSignalController.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/MobileSignalController.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 768956,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.telephony.ims.feature.ImsFeature",
+                "name": "ImsFeature",
+                "isIntrusive": 1,
+                "File": "telephony/java/android/telephony/ims/feature/ImsFeature.java",
+                "packageName": "android.telephony.ims.feature",
+                "rawType": "android.telephony.ims.feature.ImsFeature",
+                "modifiers": "public abstract",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 565050,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.MobileSignalController.java",
+                "name": "MobileSignalController.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/MobileSignalController.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 564072,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.systemui.statusbar.policy.FiveGServiceClient",
+                "name": "FiveGServiceClient",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/FiveGServiceClient.java",
+                "packageName": "com.android.systemui.statusbar.policy",
+                "rawType": "com.android.systemui.statusbar.policy.FiveGServiceClient",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 566420,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.TelephonyIcons.java",
+                "name": "TelephonyIcons.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/TelephonyIcons.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 774238,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.telephony.SignalStrength",
+                "name": "SignalStrength",
+                "isIntrusive": 1,
+                "File": "telephony/java/android/telephony/SignalStrength.java",
+                "packageName": "android.telephony",
+                "rawType": "android.telephony.SignalStrength",
+                "modifiers": "public",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 566420,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.TelephonyIcons.java",
+                "name": "TelephonyIcons.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/TelephonyIcons.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 138149,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.Log",
+                "name": "Log",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/Log.java",
+                "packageName": "android.util",
+                "rawType": "android.util.Log",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 566420,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.TelephonyIcons.java",
+                "name": "TelephonyIcons.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/TelephonyIcons.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 59404,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.content.res.TypedArray",
+                "name": "TypedArray",
+                "isIntrusive": 0,
+                "File": "core/java/android/content/res/TypedArray.java",
+                "packageName": "android.content.res",
+                "rawType": "android.content.res.TypedArray",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 566420,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.TelephonyIcons.java",
+                "name": "TelephonyIcons.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/TelephonyIcons.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 58514,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.content.res.Resources",
+                "name": "Resources",
+                "isIntrusive": 0,
+                "File": "core/java/android/content/res/Resources.java",
+                "packageName": "android.content.res",
+                "rawType": "android.content.res.Resources",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 566420,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.TelephonyIcons.java",
+                "name": "TelephonyIcons.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/TelephonyIcons.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 140579,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.SparseArray",
+                "name": "SparseArray",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/SparseArray.java",
+                "packageName": "android.util",
+                "rawType": "android.util.SparseArray",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 566420,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.TelephonyIcons.java",
+                "name": "TelephonyIcons.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/TelephonyIcons.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 775697,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.telephony.TelephonyManager",
+                "name": "TelephonyManager",
+                "isIntrusive": 1,
+                "File": "telephony/java/android/telephony/TelephonyManager.java",
+                "packageName": "android.telephony",
+                "rawType": "android.telephony.TelephonyManager",
+                "modifiers": "public",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 566420,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.systemui.statusbar.policy.TelephonyIcons.java",
+                "name": "TelephonyIcons.java",
+                "isIntrusive": 0,
+                "File": "packages/SystemUI/src/com/android/systemui/statusbar/policy/TelephonyIcons.java",
+                "packageName": "com.android.systemui.statusbar.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 46957,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.content.Context",
+                "name": "Context",
+                "isIntrusive": 0,
+                "File": "core/java/android/content/Context.java",
+                "packageName": "android.content",
+                "rawType": "android.content.Context",
+                "modifiers": "public abstract"
+            }
+        },
+        {
+            "src": {
+                "id": 604998,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.accounts.AccountsDb.java",
+                "name": "AccountsDb.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/accounts/AccountsDb.java",
+                "packageName": "com.android.server.accounts"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 63607,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.database.sqlite.SQLiteException",
+                "name": "SQLiteException",
+                "isIntrusive": 0,
+                "File": "core/java/android/database/sqlite/SQLiteException.java",
+                "packageName": "android.database.sqlite",
+                "rawType": "android.database.sqlite.SQLiteException",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 607861,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityManagerConstants.java",
+                "name": "ActivityManagerConstants.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityManagerConstants.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 607861,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityManagerConstants.java",
+                "name": "ActivityManagerConstants.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityManagerConstants.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 99810,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.Process",
+                "name": "Process",
+                "isIntrusive": 1,
+                "File": "core/java/android/os/Process.java",
+                "packageName": "android.os",
+                "rawType": "android.os.Process",
+                "modifiers": "public",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 608081,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityManagerService.java",
+                "name": "ActivityManagerService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityManagerService.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 197787,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.internal.app.ActivityTrigger",
+                "name": "ActivityTrigger",
+                "isIntrusive": 0,
+                "File": "core/java/com/android/internal/app/ActivityTrigger.java",
+                "packageName": "com.android.internal.app",
+                "rawType": "com.android.internal.app.ActivityTrigger",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 608081,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityManagerService.java",
+                "name": "ActivityManagerService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityManagerService.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 608081,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityManagerService.java",
+                "name": "ActivityManagerService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityManagerService.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 99956,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Method",
+                "qualifiedName": "android.os.Process.setCgroupProcsProcessGroup",
+                "name": "setCgroupProcsProcessGroup",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/Process.java",
+                "packageName": "android.os",
+                "parameterTypes": "int int int",
+                "parameterNames": "uid pid group",
+                "rawType": "void",
+                "modifiers": "public static final native"
+            }
+        },
+        {
+            "src": {
+                "id": 615025,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityRecord.java",
+                "name": "ActivityRecord.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityRecord.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 200147,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.internal.app.procstats.ProcessStats",
+                "name": "ProcessStats",
+                "isIntrusive": 0,
+                "File": "core/java/com/android/internal/app/procstats/ProcessStats.java",
+                "packageName": "com.android.internal.app.procstats",
+                "rawType": "com.android.internal.app.procstats.ProcessStats",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 615025,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityRecord.java",
+                "name": "ActivityRecord.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityRecord.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 615025,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityRecord.java",
+                "name": "ActivityRecord.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityRecord.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 615025,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityRecord.java",
+                "name": "ActivityRecord.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityRecord.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 615025,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityRecord.java",
+                "name": "ActivityRecord.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityRecord.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 615650,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityStack.java",
+                "name": "ActivityStack.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityStack.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 197787,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.internal.app.ActivityTrigger",
+                "name": "ActivityTrigger",
+                "isIntrusive": 0,
+                "File": "core/java/com/android/internal/app/ActivityTrigger.java",
+                "packageName": "com.android.internal.app",
+                "rawType": "com.android.internal.app.ActivityTrigger",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 615650,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityStack.java",
+                "name": "ActivityStack.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityStack.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 616714,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityStackSupervisor.java",
+                "name": "ActivityStackSupervisor.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityStackSupervisor.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 616714,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityStackSupervisor.java",
+                "name": "ActivityStackSupervisor.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityStackSupervisor.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 200147,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.internal.app.procstats.ProcessStats",
+                "name": "ProcessStats",
+                "isIntrusive": 0,
+                "File": "core/java/com/android/internal/app/procstats/ProcessStats.java",
+                "packageName": "com.android.internal.app.procstats",
+                "rawType": "com.android.internal.app.procstats.ProcessStats",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 616714,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityStackSupervisor.java",
+                "name": "ActivityStackSupervisor.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityStackSupervisor.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 91334,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.AsyncTask",
+                "name": "AsyncTask",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/AsyncTask.java",
+                "packageName": "android.os",
+                "rawType": "android.os.AsyncTask",
+                "modifiers": "public abstract"
+            }
+        },
+        {
+            "src": {
+                "id": 618079,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ActivityStarter.java",
+                "name": "ActivityStarter.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ActivityStarter.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 621863,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.ProcessRecord.java",
+                "name": "ProcessRecord.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/ProcessRecord.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 622613,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.am.RecentTasks.java",
+                "name": "RecentTasks.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/am/RecentTasks.java",
+                "packageName": "com.android.server.am"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 631581,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.connectivity.Nat464Xlat.java",
+                "name": "Nat464Xlat.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/connectivity/Nat464Xlat.java",
+                "packageName": "com.android.server.connectivity"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 631787,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.connectivity.NetworkAgentInfo.java",
+                "name": "NetworkAgentInfo.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/connectivity/NetworkAgentInfo.java",
+                "packageName": "com.android.server.connectivity"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 85649,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.net.NetworkCapabilities.NET_CAPABILITY_MMS",
+                "name": "NET_CAPABILITY_MMS",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/NetworkCapabilities.java",
+                "packageName": "android.net",
+                "rawType": "int",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 631787,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.connectivity.NetworkAgentInfo.java",
+                "name": "NetworkAgentInfo.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/connectivity/NetworkAgentInfo.java",
+                "packageName": "com.android.server.connectivity"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 85661,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.net.NetworkCapabilities.NET_CAPABILITY_INTERNET",
+                "name": "NET_CAPABILITY_INTERNET",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/NetworkCapabilities.java",
+                "packageName": "android.net",
+                "rawType": "int",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 632398,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.connectivity.NetworkNotificationManager.java",
+                "name": "NetworkNotificationManager.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/connectivity/NetworkNotificationManager.java",
+                "packageName": "com.android.server.connectivity"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 775193,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.telephony.SubscriptionManager",
+                "name": "SubscriptionManager",
+                "isIntrusive": 1,
+                "File": "telephony/java/android/telephony/SubscriptionManager.java",
+                "packageName": "android.telephony",
+                "rawType": "android.telephony.SubscriptionManager",
+                "modifiers": "public",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 633059,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.connectivity.tethering.TetheringConfiguration.java",
+                "name": "TetheringConfiguration.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/connectivity/tethering/TetheringConfiguration.java",
+                "packageName": "com.android.server.connectivity.tethering"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 633495,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.connectivity.Tethering.java",
+                "name": "Tethering.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/connectivity/Tethering.java",
+                "packageName": "com.android.server.connectivity"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 633495,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.connectivity.Tethering.java",
+                "name": "Tethering.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/connectivity/Tethering.java",
+                "packageName": "com.android.server.connectivity"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 82416,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.net.ConnectivityManager.TETHERING_WIGIG",
+                "name": "TETHERING_WIGIG",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/ConnectivityManager.java",
+                "packageName": "android.net",
+                "rawType": "int",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 634397,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.ConnectivityService.java",
+                "name": "ConnectivityService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/ConnectivityService.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 775053,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.telephony.SubscriptionInfo",
+                "name": "SubscriptionInfo",
+                "isIntrusive": 0,
+                "File": "telephony/java/android/telephony/SubscriptionInfo.java",
+                "packageName": "android.telephony",
+                "rawType": "android.telephony.SubscriptionInfo",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 634397,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.ConnectivityService.java",
+                "name": "ConnectivityService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/ConnectivityService.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 88491,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.net.StringNetworkSpecifier",
+                "name": "StringNetworkSpecifier",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/StringNetworkSpecifier.java",
+                "packageName": "android.net",
+                "rawType": "android.net.StringNetworkSpecifier",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 634397,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.ConnectivityService.java",
+                "name": "ConnectivityService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/ConnectivityService.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 775193,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.telephony.SubscriptionManager",
+                "name": "SubscriptionManager",
+                "isIntrusive": 1,
+                "File": "telephony/java/android/telephony/SubscriptionManager.java",
+                "packageName": "android.telephony",
+                "rawType": "android.telephony.SubscriptionManager",
+                "modifiers": "public",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 634397,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.ConnectivityService.java",
+                "name": "ConnectivityService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/ConnectivityService.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 85659,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.net.NetworkCapabilities.NET_CAPABILITY_EIMS",
+                "name": "NET_CAPABILITY_EIMS",
+                "isIntrusive": 0,
+                "File": "core/java/android/net/NetworkCapabilities.java",
+                "packageName": "android.net",
+                "rawType": "int",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 642475,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.display.WifiDisplayController.java",
+                "name": "WifiDisplayController.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/display/WifiDisplayController.java",
+                "packageName": "com.android.server.display"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 102537,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.SystemProperties",
+                "name": "SystemProperties",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/SystemProperties.java",
+                "packageName": "android.os",
+                "rawType": "android.os.SystemProperties",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 678208,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.pm.PackageManagerService.java",
+                "name": "PackageManagerService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/pm/PackageManagerService.java",
+                "packageName": "com.android.server.pm"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 212211,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.internal.os.RegionalizationEnvironment",
+                "name": "RegionalizationEnvironment",
+                "isIntrusive": 0,
+                "File": "core/java/com/android/internal/os/RegionalizationEnvironment.java",
+                "packageName": "com.android.internal.os",
+                "rawType": "com.android.internal.os.RegionalizationEnvironment",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 678208,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.pm.PackageManagerService.java",
+                "name": "PackageManagerService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/pm/PackageManagerService.java",
+                "packageName": "com.android.server.pm"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 692853,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.policy.PhoneWindowManager.java",
+                "name": "PhoneWindowManager.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/policy/PhoneWindowManager.java",
+                "packageName": "com.android.server.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 692853,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.policy.PhoneWindowManager.java",
+                "name": "PhoneWindowManager.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/policy/PhoneWindowManager.java",
+                "packageName": "com.android.server.policy"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 37206,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Variable",
+                "qualifiedName": "android.app.WindowConfiguration.ACTIVITY_TYPE_RECENTS",
+                "name": "ACTIVITY_TYPE_RECENTS",
+                "isIntrusive": 0,
+                "File": "core/java/android/app/WindowConfiguration.java",
+                "packageName": "android.app",
+                "rawType": "int",
+                "modifiers": "public static final",
+                "global": true
+            }
+        },
+        {
+            "src": {
+                "id": 700056,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.StorageManagerService.java",
+                "name": "StorageManagerService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/StorageManagerService.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 100738,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.ServiceSpecificException",
+                "name": "ServiceSpecificException",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/ServiceSpecificException.java",
+                "packageName": "android.os",
+                "rawType": "android.os.ServiceSpecificException",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 707190,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.Watchdog.java",
+                "name": "Watchdog.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/Watchdog.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 96024,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.FileUtils",
+                "name": "FileUtils",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/FileUtils.java",
+                "packageName": "android.os",
+                "rawType": "android.os.FileUtils",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 712579,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.wm.ScreenRotationAnimation.java",
+                "name": "ScreenRotationAnimation.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/wm/ScreenRotationAnimation.java",
+                "packageName": "com.android.server.wm"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 714507,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.wm.TaskTapPointerEventListener.java",
+                "name": "TaskTapPointerEventListener.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/wm/TaskTapPointerEventListener.java",
+                "packageName": "com.android.server.wm"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 714507,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.wm.TaskTapPointerEventListener.java",
+                "name": "TaskTapPointerEventListener.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/wm/TaskTapPointerEventListener.java",
+                "packageName": "com.android.server.wm"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 608082,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.server.am.ActivityManagerService",
+                "name": "ActivityManagerService",
+                "isIntrusive": 1,
+                "File": "services/core/java/com/android/server/am/ActivityManagerService.java",
+                "packageName": "com.android.server.am",
+                "rawType": "com.android.server.am.ActivityManagerService",
+                "modifiers": "public",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 714507,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.wm.TaskTapPointerEventListener.java",
+                "name": "TaskTapPointerEventListener.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/wm/TaskTapPointerEventListener.java",
+                "packageName": "com.android.server.wm"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 616715,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.server.am.ActivityStackSupervisor",
+                "name": "ActivityStackSupervisor",
+                "isIntrusive": 1,
+                "File": "services/core/java/com/android/server/am/ActivityStackSupervisor.java",
+                "packageName": "com.android.server.am",
+                "rawType": "com.android.server.am.ActivityStackSupervisor",
+                "modifiers": "public",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 715740,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.wm.WindowManagerService.java",
+                "name": "WindowManagerService.java",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/wm/WindowManagerService.java",
+                "packageName": "com.android.server.wm"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 136598,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.util.BoostFramework",
+                "name": "BoostFramework",
+                "isIntrusive": 0,
+                "File": "core/java/android/util/BoostFramework.java",
+                "packageName": "android.util",
+                "rawType": "android.util.BoostFramework",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 722888,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.SystemServer.java",
+                "name": "SystemServer.java",
+                "isIntrusive": 0,
+                "File": "services/java/com/android/server/SystemServer.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 97359,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Interface",
+                "qualifiedName": "android.os.IBinder",
+                "name": "IBinder",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/IBinder.java",
+                "packageName": "android.os",
+                "rawType": "android.os.IBinder",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 722888,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.SystemServer.java",
+                "name": "SystemServer.java",
+                "isIntrusive": 0,
+                "File": "services/java/com/android/server/SystemServer.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 674084,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.server.os.RegionalizationService",
+                "name": "RegionalizationService",
+                "isIntrusive": 0,
+                "File": "services/core/java/com/android/server/os/RegionalizationService.java",
+                "packageName": "com.android.server.os",
+                "rawType": "com.android.server.os.RegionalizationService",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 722888,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.SystemServer.java",
+                "name": "SystemServer.java",
+                "isIntrusive": 0,
+                "File": "services/java/com/android/server/SystemServer.java",
+                "packageName": "com.android.server"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 212211,
+                "not_aosp": 1,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.internal.os.RegionalizationEnvironment",
+                "name": "RegionalizationEnvironment",
+                "isIntrusive": 0,
+                "File": "core/java/com/android/internal/os/RegionalizationEnvironment.java",
+                "packageName": "com.android.internal.os",
+                "rawType": "com.android.internal.os.RegionalizationEnvironment",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 730730,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.accounts.AccountsDbTest.java",
+                "name": "AccountsDbTest.java",
+                "isIntrusive": 0,
+                "File": "services/tests/servicestests/src/com/android/server/accounts/AccountsDbTest.java",
+                "packageName": "com.android.server.accounts"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 94312,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.os.Build",
+                "name": "Build",
+                "isIntrusive": 0,
+                "File": "core/java/android/os/Build.java",
+                "packageName": "android.os",
+                "rawType": "android.os.Build",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 730730,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.server.accounts.AccountsDbTest.java",
+                "name": "AccountsDbTest.java",
+                "isIntrusive": 0,
+                "File": "services/tests/servicestests/src/com/android/server/accounts/AccountsDbTest.java",
+                "packageName": "com.android.server.accounts"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 64100,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.database.sqlite.SQLiteStatement",
+                "name": "SQLiteStatement",
+                "isIntrusive": 0,
+                "File": "core/java/android/database/sqlite/SQLiteStatement.java",
+                "packageName": "android.database.sqlite",
+                "rawType": "android.database.sqlite.SQLiteStatement",
+                "modifiers": "public final"
+            }
+        },
+        {
+            "src": {
+                "id": 769059,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.telephony.ims.feature.MmTelFeature.java",
+                "name": "MmTelFeature.java",
+                "isIntrusive": 0,
+                "File": "telephony/java/android/telephony/ims/feature/MmTelFeature.java",
+                "packageName": "android.telephony.ims.feature"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 769953,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.telephony.ims.ImsReasonInfo",
+                "name": "ImsReasonInfo",
+                "isIntrusive": 1,
+                "File": "telephony/java/android/telephony/ims/ImsReasonInfo.java",
+                "packageName": "android.telephony.ims",
+                "rawType": "android.telephony.ims.ImsReasonInfo",
+                "modifiers": "public final",
+                "intrusiveModify": {
+                    "class_body_modify": "-"
+                }
+            }
+        },
+        {
+            "src": {
+                "id": 772784,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "android.telephony.PhoneNumberUtils.java",
+                "name": "PhoneNumberUtils.java",
+                "isIntrusive": 0,
+                "File": "telephony/java/android/telephony/PhoneNumberUtils.java",
+                "packageName": "android.telephony"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 441472,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "android.location.Country",
+                "name": "Country",
+                "isIntrusive": 0,
+                "File": "location/java/android/location/Country.java",
+                "packageName": "android.location",
+                "rawType": "android.location.Country",
+                "modifiers": "public"
+            }
+        },
+        {
+            "src": {
+                "id": 782338,
+                "not_aosp": -1,
+                "old_aosp": -1,
+                "category": "File",
+                "qualifiedName": "com.android.internal.telephony.uicc.IccUtils.java",
+                "name": "IccUtils.java",
+                "isIntrusive": 0,
+                "File": "telephony/java/com/android/internal/telephony/uicc/IccUtils.java",
+                "packageName": "com.android.internal.telephony.uicc"
+            },
+            "values": {
+                "Import": 1
+            },
+            "dest": {
+                "id": 779833,
+                "not_aosp": 0,
+                "old_aosp": -1,
+                "category": "Class",
+                "qualifiedName": "com.android.internal.telephony.EncodeException",
+                "name": "EncodeException",
+                "isIntrusive": 0,
+                "File": "telephony/java/com/android/internal/telephony/EncodeException.java",
+                "packageName": "com.android.internal.telephony",
+                "rawType": "com.android.internal.telephony.EncodeException",
+                "modifiers": "public"
+            }
+        }
+    ]
+}

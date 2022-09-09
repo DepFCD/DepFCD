@@ -1,0 +1,2 @@
+id,category,qualifiedName,file_path,not_aosp,old_aosp,isIntrusive,intrusiveModify,refactor
+616662,Class,com.android.systemui.tuner.NavBarTuner,packages/SystemUI/src/com/android/systemui/tuner/NavBarTuner.java,0,-1,1,"{'parent_class_modify': '-com.android.systemui.tuner.TunerPreferenceFragment', 'class_body_modify': '-'}",[]
