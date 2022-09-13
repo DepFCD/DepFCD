@@ -1,8 +1,8 @@
 # Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization
-This project contains the data and scripts of our ICSE 2023 under-reviewed work —— `Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization`. The directory is conducted as following, which is corresponding to the work.
-Due to page limit, we attach `Threats` Section <here>. For industrial data, beacuse of the security problem and file size limit of GitHub, we only upload key data and scripts here. 
+This project contains the tool, data, and scripts of our ICSE 2023 under-reviewing work —— `Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization`. The directory is conducted as follows.
+Please note that due to paper page limit, we attach Section `Threats to Validity` <here>. We opened all of the collected data of the investigated subjects. As for the industrial (IndustrialX) subject, because of the confidential issue and file size limit of GitHub, we only upload key research data and scripts in this repository. 
 
-The whole directory goes like following:
+The whole directory goes like in the following:
 ```
 │  README.md
 │  
