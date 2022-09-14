@@ -1,6 +1,6 @@
 # Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization
 This project contains the tool, data, and scripts of our ICSE 2023 under-reviewing work —— `Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization`. The directory is conducted as follows.
-Please note that due to paper page limit, we attach Section `Threats to Validity` <here>. We opened all of the collected data of the investigated subjects. As for the industrial (IndustrialX) subject, because of the confidential issue and file size limit of GitHub, we only upload key research data and scripts to this repository. 
+Please note that due to paper page limit, we attach Section `Threats to Validity` <here>. We opened all of the collected data of the investigated open-source subjects. As for the close-source industrial (IndustrialX) subject, because of the confidential issue and file size limit of GitHub, we only upload key research data and scripts to this repository. 
 
 The whole directory goes like the following:
 ```
@@ -31,7 +31,7 @@ The whole directory goes like the following:
 │          ├─lineage
 │          └─omnirom
 │                  
-├─Method
+├─Method(tool)
 │  │  dep_facade.exe
 │  │  enre_java.jar
 │  │  
@@ -46,7 +46,7 @@ The whole directory goes like the following:
 
 ### Entity and Dependency Extraction
 
-- `enre_java.jar` - a static code analysis tool to produce dependencies graphs.
+- `enre_java.jar` - a static code analysis tool to produce dependency graphs.
 
 - input: source code path， hidden flag file path
 
@@ -75,8 +75,8 @@ The WARNING which is related to `log4j` during the executing process is ignorabl
 ## Scripts
 
 ### Set up
-We use the following scripts to get the merge points and conflicts, most of them are from https://zenodo.org/record/6272071#.Yxg_OWhBw_E.
-To execute them, users need to satisfy the following steps.
+We use the following scripts to get the merge points and conflicts. You can refer to  https://zenodo.org/record/6272071#.Yxg_OWhBw_E for more information.
+To execute them, users need to follow the following steps.
 1. Clone corresponding customized Android Frameworks into directory platforms.
 2. Retrieve the commit history of customized Android Frameworks and store it in directory history.
 3. Run Python scripts to acquire merge and conflict information.
@@ -212,11 +212,9 @@ This directory contains data on textual conflict detection results of each proje
 
 # Threats
 
-First, our DepFCD employs the ENRE for entity and dependency extraction. It supports extracting possible dependencies caused by dynamic features, which other tools failed to identify. Second, the accuracy of Entity Ownership Identification and Intrusive Operation Identification of our DepFCD would impact the study of RQ1 and RQ2. To reduce threats, we combined the git blame command and advanced RefactoringMiner for an accurate analysis of commit history. git blame traces code modifications and RefactoringMiner identifies refactoring operations involved in modifications. RefactoringMiner has been widely adopted in diverse work.
+First, our DepFCD employs the ENRE for entity and dependency extraction. It supports extracting possible dependencies caused by dynamic features, which other tools failed to identify. Second, the accuracy of Entity Ownership Identification and Intrusive Operation Identification of our DepFCD would impact the study of RQ1 and RQ2. To reduce threats, we combined the git blame command and advanced RefactoringMiner for an accurate analysis of commit history. git blame traces code modifications and RefactoringMiner identifies refactoring operations involved in modifications. The RefactoringMiner has been widely adopted in diverse work.
 
-Our RQ3 employed the Restriction Level Labeling of DepFCD to assign the non-SDK restriction levels documented in “hiddenapi.csv” into the corresponding entities. To mitigate possible threats, we fetched and compiled the entire huge-scale
-project repositories to generate accurate “hiddenapi.csv” files.
+Our RQ3 employed the Restriction Level Labeling of DepFCD to assign the non-SDK restriction levels documented in “hiddenapi.csv” into the corresponding entities. To mitigate possible threats, we fetched and compiled the entire huge-scale project repositories to generate accurate “hiddenapi.csv” files.
 
-Our RQ4 conducted a manual study on the code conflicts on the dependency facade. To mitigate the possible subjectivity, the two authors of this work independently analyzed the conflict cases and reached consistent results. Moreover, we
-reported the results on IndustrialX to its developers. They confirmed our observations on these cases, as discussed in Section V. We will analyze more conflict cases.
+Our RQ4 conducted a manual study on the code conflicts on the dependency facade. To mitigate the possible subjectivity, the two authors of this work independently analyzed the conflict cases and reached consistent results. Moreover, we reported the results on IndustrialX to its developers. They confirmed our observations on these cases, as discussed in Section V. We will analyze more conflict cases.
 
