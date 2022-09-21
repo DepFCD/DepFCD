@@ -1,6 +1,6 @@
 # Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization
-This project contains the tool, data, and scripts of our ICSE 2023 under-reviewing work —— `Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization`. The directory is conducted as follows.
-Please note that due to paper page limit, we attach Section `Threats to Validity` <here>. We opened all of the collected data of the investigated open-source subjects. As for the close-source industrial (IndustrialX) subject, because of the confidential issue and file size limit of GitHub, we only upload key research data and scripts to this repository. 
+This repository illustrates the tool, data, and scripts of our ICSE2023 under-reviewing work —— `Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization`. The directory is organized as follows.
+Please note that due to paper page limit, we attach Section `Threats to Validity` in this readme <here>. We opened all of the collected data of the investigated open-source subjects. As for the close-source industrial (IndustrialX) subject, we cannot open its detailing data  because of the confidential issue. Due to the file size limit of GitHub, we upload the processed data and scripts to this repository. Please connect us for the large-scale raw data if required.
 
 The whole directory goes like the following:
 ```
@@ -32,9 +32,8 @@ The whole directory goes like the following:
 │          └─omnirom
 │                  
 ├─Method(tool)
-│  │  dep_facade.exe
-│  │  enre_java.jar
-│  │  
+│  └─dep_facade.exe
+│  └─enre_java.jar
 │  └─ref_tool
 │              
 └─Scripts
@@ -46,9 +45,11 @@ The whole directory goes like the following:
 
 ### Entity and Dependency Extraction
 
+We employ the [*ENRE*]() to parse the entities and dependencies from source code.
+
 - `enre_java.jar` - a static code analysis tool to produce dependency graphs.
 
-- input: source code path， hidden flag file path
+- input: source code path, hidden flag file path
 
 - command:
 
@@ -58,7 +59,7 @@ java -jar enre_java.jar java <local_path_to_repo\LineageOS\base\services\core\ja
 
 ### Entity Ownership  and Intrusive Operation Identification
 
-- `dep_facade.exe` - a dependency facade analysis tool to detect entities' ownership and intrusive operation in dependencies  graph and in this tool we encapsulate the tool `RefactoringMiner`
+- `dep_facade.exe` - a dependency facade analysis tool to detect entities' ownership and intrusive operation in dependency  graph. In this tool we integrated the tool `RefactoringMiner`
   - `ref_tool\lib\RefactoringMiner-2.2.0.jar` - the refactoring infomation detection tool, there are some `jar` required for the tool in the `ref_tool\lib` directory
   - `ref_tool\bin\RefactoringMiner` - a script that executes the tool `Refactoring Miner-2.2.0.jar` to generate refactoring information
 - input: source code path, source dependencies graph json file path
@@ -68,25 +69,25 @@ java -jar enre_java.jar java <local_path_to_repo\LineageOS\base\services\core\ja
 dep_facade.exe -cc <local_path_to_downstream_repo\LineageOS\base> -ca <local_path_to_upstream_repo\android\base> -c <path_to_downstream_dependency_graph, i.e. D:\LineageOS\lineage.json> -a <path_to_upstream_dependency_graph, i.e. D:\android\android.json> -ref ref_tool\bin\RefactoringMiner -o <output_path>
 ```
 
-During the detecting process， we need to acquire all commits history of AOSP all versions， which is time-consuming. To save some time， you can put the `all_base_commits.csv` which is provided by Section `data\Methodology\The detection of Dependency facade \Entity Ownership Identification`.
+During the detecting process， we need to acquire all commits history of the analyzed project， which is time-consuming. To be convenient, you can put the `all_base_commits.csv` which is already provided by the folder `data\Methodology\The detection of Dependency facade \Entity Ownership Identification`.
 
-The WARNING which is related to `log4j` during the executing process is ignorable. 
+The WARNING related to `log4j` during execution can be ignorable. 
 
 ## Scripts
 
 ### Set up
-We use the following scripts to get the merge points and conflicts. You can refer to  https://zenodo.org/record/6272071#.Yxg_OWhBw_E for more information.
-To execute them, users need to follow the following steps.
+We use the following scripts to get merge points and conflicts. You can refer to  https://zenodo.org/record/6272071#.Yxg_OWhBw_E for more information.
+To execute them, users need to follow several steps.
 1. Clone corresponding customized Android Frameworks into directory platforms.
 2. Retrieve the commit history of customized Android Frameworks and store it in directory history.
-3. Run Python scripts to acquire merge and conflict information.
+3. Run the Python scripts to acquire merge and conflict information.
 Every Python script contains the specification of the intention at the beginning of the script.
-However, the path specified in the script should be replaced with the local path as I am using the absolute path.
+However, the path specified in the script should be replaced with the local path.
 We also provide specific scripts we use in this directory.
 1. After cloning the repo,  users also need to create `/<project>` folder which contains `branch_all.txt` and `/branches` empty folder, the `branch_all.txt` contains all branches of versions.
-2. Then, run `andro_base_branch_commit_hist.py` to retrieve commit history.
-3. After that, run `merge_extract.py` to acquire all merge points.
-4. Finally, run `merge_conf_detect.py` to detect the merge conflicts and `merge_conf_ast.py` to get the details of conflict blocks.
+2. Run `andro_base_branch_commit_hist.py` to retrieve commit history.
+3. Run `merge_extract.py` to acquire all merge points.
+4. Run `merge_conf_detect.py` to detect the merge conflicts and `merge_conf_ast.py` to get the details of conflict blocks.
 
 ## Data
 
@@ -122,7 +123,7 @@ This directory contains the data of commits history, ownership, and dependency f
 
 
 ##### Intrusive Operation Identification
-This directory contains the data of different kinds of intrusive modification generate by running the tool `dep_facade.exe`,  following diagram shows the detail of each file.
+This directory contains the data of different kinds of intrusive modification generated by  `dep_facade.exe`. The  following diagram shows the detail of each file.
 
 - `<project name>-<version>`
 	- access_modify_entities.csv - The number of entities modified by accessibility
