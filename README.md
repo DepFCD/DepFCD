@@ -7,7 +7,7 @@ The whole directory goes like the following:
 ├─README.md
 │  
 ├─Method (DepFCD tool)
-├
+|
 │              
 │─Scripts
 │    
