@@ -1,51 +1,55 @@
 # Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization
 This repository illustrates the tool, data, and scripts of our ICSE2023 under-reviewing work —— `Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization`. The directory is organized as follows.
-Please note that due to paper page limit, we attach Section `Threats to Validity` in this readme <here>. We opened all of the collected data of the investigated open-source subjects. As for the close-source industrial (IndustrialX) subject, we cannot open its detailing data  because of the confidential issue of the industry, one of famous mobile vendors. Due to the file size limit of GitHub, we upload the processed data and scripts to this repository. Please connect us for the large-scale raw data if required.
+Please note that due to paper page limit, we attach Section `Threats to Validity` in this readme <here>. We opened all of the collected data of the investigated open-source subjects. As for the close-source industrial (IndustrialX) subject, we cannot open its detailing data  because of the confidential issue of the industry, one of famous mobile vendors. Due to the file size limit of GitHub, we upload the processed data to this repository. Please connect us for the large-scale raw data if required.
 
 The whole directory goes like the following:
 ```
-│  README.md
+├─README.md
 │  
+├─Method (DepFCD tool)
+│  ├─dep_facade.exe
+│  ├─enre_java.jar
+│  └─ref_tool
+│              
+│─Scripts
+│    ├─Setup_scripts
+│    └─RQ_scripts
+│
+│	
 ├─Data
-│  ├─Methodology
+│  ├─Methodology 
 │  │  ├─ENtity_and_Dependency_Extraction
 │  │  ├─Entity_Ownership_Identification      
 │  │  ├─Intrusive_Operation_Identification   
 │  │  └─Restriction_Level_Labeling 
-│  ├─Results
-│  │  ├─RQ1    
-│  │  ├─RQ2
-│  │  ├─RQ3
-│  │  └─RQ4
 │  │          
-│  └─Setup
-│      ├─Merge_conflict_collection
-│      │  ├─aospa
-│      │  ├─calyx
-│      │  ├─lineage
-│      │  └─omnirom
-│      │          
-│      └─Subject_and_version_collection
-│          ├─aospa
-│          ├─calyx
-│          ├─lineage
-│          └─omnirom
-│                  
-├─Method(tool)
-│  └─dep_facade.exe
-│  └─enre_java.jar
-│  └─ref_tool
-│              
-└─Scripts
-    ├─RQ_scripts
-    └─setup_scripts
+│  │─Setup
+│  │    ├─Merge_conflict_collection
+│  │    │  ├─aospa
+│  │    │  ├─calyx
+│  │    │  ├─lineage
+│  │    │  └─omnirom
+│  │    │          
+│  │    └─Subject_and_version_collection
+│  │        ├─aospa
+│  │        ├─calyx
+│  │        ├─lineage
+│  │        └─omnirom	
+│  └─Results
+│     ├─RQ1    
+│     ├─RQ2
+│     ├─RQ3
+│     └─RQ4
+|
+└─Threats to Validity                  
+
 ```
 
 ## Method
 
 ### Entity and Dependency Extraction
 
-We employ the [*ENRE*]() to parse the entities and dependencies from source code.
+We employ the [*ENRE*](https://github.com/xjtu-enre/ENRE-java) to parse the entities and dependencies from source code.
 
 - `enre_java.jar` - a static code analysis tool to produce dependency graphs.
 
@@ -211,7 +215,7 @@ This directory contains data on textual conflict detection results of each proje
 
 - `selected-conf-block.docx` - the selected conflict blocks details.
 
-# Threats
+# Threats to Validity
 
 First, our DepFCD employs the ENRE for entity and dependency extraction. It supports extracting possible dependencies caused by dynamic features, which other tools failed to identify. Second, the accuracy of Entity Ownership Identification and Intrusive Operation Identification of our DepFCD would impact the study of RQ1 and RQ2. To reduce threats, we combined the git blame command and advanced RefactoringMiner for an accurate analysis of commit history. git blame traces code modifications and RefactoringMiner identifies refactoring operations involved in modifications. The RefactoringMiner has been widely adopted in diverse work.
 
