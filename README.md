@@ -7,13 +7,10 @@ The whole directory goes like the following:
 ├─README.md
 │  
 ├─Method (DepFCD tool)
-│  ├─dep_facade.exe
-│  ├─enre_java.jar
-│  └─ref_tool
+├
 │              
 │─Scripts
-│    ├─Setup_scripts
-│    └─RQ_scripts
+│    
 │
 │	
 ├─Data
