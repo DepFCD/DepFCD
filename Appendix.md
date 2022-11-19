@@ -265,7 +265,7 @@ The formal definition of the dependency graph, updated graph, dependency facade,
 | entity's operation         | The operation downstream made to upstream entities           | ${e, e.operation\in\lbrace'modify\ \ the\ \ modifier', 'modify\ \ the\ \ annotation', 'modify\ \ the\ \ parent\ class', etc\rbrace}$ |
 | entity's ownership         | The ownership of entities                                    | ${e, e.ownership\in\lbrace'actively\ native', 'obsoletely\ native', 'intrusively\ native', 'extensive'\rbrace}$ |
 | updated graph              | The updated dependency graph, which included restriction level, operation, ownership | $G' = \langle V', D\rangle, V' = \lbrace{e, e.ownership\neq\emptyset, e.operation\neq\emptyset, e.restrict_level\neq\emptyset \rbrace}$ |
-| dependency facade          | The dependency facade which downstream coupling with upstream | $G_F = \langle V', D'\rangle \\ D' = \lbrace {d = e_i \to e_j, \\ e_i.ownership == 'extensive'\  \land \ e_j.ownership.endwith('native') \cup \\ e_j.ownership == 'extensive'\ \land \ e_i.ownership.endwith('native')}\\\rbrace$ |
+| dependency facade          | The dependency facade which downstream coupling with upstream | $G_F = \langle V', D'\rangle \\ D' = \lbrace {d = e_i \to e_j, \\ e_i.ownership == 'extensive'\  \land \ e_j.ownership.endwith('native') \cup \\ e_j.ownership == 'extensive'\ \land \ e_i.ownership.endwith('native') \rbrace }$ |
 | conflicts                  | The entities which conflicts take place                      | ${e, e.conflict==CONFLICT\ BLOCK}$                           |
 
 
