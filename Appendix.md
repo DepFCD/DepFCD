@@ -261,11 +261,11 @@ The formal definition of the dependency graph, updated graph, dependency facade,
 | vertex set                 | The set of entities(vertexes) of dependency graph            | $V = \lbrace {e}\rbrace$                                     |
 | dependency set             | The set of edges(dependencies) of dependency graph           | $D = \lbrace {d = e_i \to e_j}\rbrace$                       |
 | dependency graph           | The initial dependency graph provided by ENRE                | $G = \langle V,  D\rangle$                                   |
-| entity's restriction level | The non-SDK restriction level of entities  imposed by Android | ${ e.restrict\_level\in\{’sdk’, 'unsupported’, 'max-target-x', 'blocked'\}}$ |
-| entity's operation         | The operation downstream made to upstream entities           | ${e, e.operation\in\{'modify\ \ the\ \ modifier', 'modify\ \ the\ \ annotation', 'modify\ \ the\ \ parent\ class', etc\}}$ |
-| entity's ownership         | The ownership of entities                                    | ${e, e.ownership\in\{'actively\ native', 'obsoletely\ native', 'intrusively\ native', 'extensive'\}}$ |
-| updated graph              | The updated dependency graph, which included restriction level, operation, ownership | $G' = &lt;V', D&gt;, V' = \{{e, e.ownership\neq\emptyset, e.operation\neq\emptyset, e.restrict_level\neq\emptyset \}}$ |
-| dependency facade          | The dependency facade which downstream coupling with upstream | $G_F = &lt;V', D'&gt; \\ D' = \{{d = e_i \to e_j, \\e_i.ownership == 'extensive'\  \&\& \ e_j.ownership.endwith('native') \cup \\e_j.ownership == 'extensive'\ \&\& \ e_i.ownership.endwith('native')}\\\}$ |
+| entity's restriction level | The non-SDK restriction level of entities  imposed by Android | ${e.restrict\_level\in\lbrace’sdk’, 'unsupported’, 'max-target-x', 'blocked'\rbrace}$ |
+| entity's operation         | The operation downstream made to upstream entities           | ${e, e.operation\in\lbrace'modify\ \ the\ \ modifier', 'modify\ \ the\ \ annotation', 'modify\ \ the\ \ parent\ class', etc\rbrace}$ |
+| entity's ownership         | The ownership of entities                                    | ${e, e.ownership\in\lbrace'actively\ native', 'obsoletely\ native', 'intrusively\ native', 'extensive'\rbrace}$ |
+| updated graph              | The updated dependency graph, which included restriction level, operation, ownership | $G' = \langleV', D\rangle, V' = \lbrace{e, e.ownership\neq\emptyset, e.operation\neq\emptyset, e.restrict_level\neq\emptyset \rbrace}$ |
+| dependency facade          | The dependency facade which downstream coupling with upstream | $G_F = \langleV', D'\rangle \\ D' = \lbrace{d = e_i \to e_j, \\e_i.ownership == 'extensive'\  \&\& \ e_j.ownership.endwith('native') \cup \\e_j.ownership == 'extensive'\ \&\& \ e_i.ownership.endwith('native')}\\\rbrace$ |
 | conflicts                  | The entities which conflicts take place                      | ${e, e.conflict==CONFLICT\ BLOCK}$                           |
 
 
