@@ -243,10 +243,10 @@ There are $2^3 = 8$ combinations for Ue, De, and Oe in sum，and here are the ot
 | $=\emptyset$        | $=\emptyset$        | $\neq\emptyset$     | "obsoletely native"     |
 | $\neq\emptyset$     | $\neq\emptyset$     | $=\emptyset$        | "intrusively native"    |
 | $=\emptyset$        | $\neq\emptyset$     | $=\emptyset$        | "extensive"             |
-| ==$=\emptyset$==    | ==$=\emptyset$==    | ==$=\emptyset$==    | =="IMPOSSIBLE"==        |
-| ==$=\emptyset$==    | ==$\neq\emptyset$== | ==$\neq\emptyset$== | =="intrusive native"==  |
-| ==$\neq\emptyset$== | ==$\neq\emptyset$== | ==$\neq\emptyset$== | =="intrusive native"==  |
-| ==$\neq\emptyset$== | ==$=\emptyset$==    | ==$\neq\emptyset$== | =="obsoletely native"== |
+| $=\emptyset$        |   $=\emptyset$      |   $=\emptyset$      |   "IMPOSSIBLE"          |
+| $=\emptyset$        |   $\neq\emptyset$   |   $\neq\emptyset$   |   "intrusive native"    |
+|   $\neq\emptyset$== |   $\neq\emptyset$   |   $\neq\emptyset$   |   "intrusive native"    |
+|   $\neq\emptyset$== |   $=\emptyset$      |   $\neq\emptyset$   |   "obsoletely native"   |
 
 
 
