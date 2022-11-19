@@ -258,9 +258,9 @@ The formal definition of the dependency graph, updated graph, dependency facade,
 
 | concept                    | description                                                  | definition                                                   |
 | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| vertex set                 | The set of entities(vertexes) of dependency graph            | $V = \{{e}\}$                                                |
-| dependency set             | The set of edges(dependencies) of dependency graph           | $D = \{{d = e_i \to e_j}\}$                                  |
-| dependency graph           | The initial dependency graph provided by ENRE                | $G = &lt;V,  D&gt;$                                               |
+| vertex set                 | The set of entities(vertexes) of dependency graph            | $V = \lbrace {e}\rbrace$                                     |
+| dependency set             | The set of edges(dependencies) of dependency graph           | $D = \lbrace {d = e_i \to e_j}\rbrace$                       |
+| dependency graph           | The initial dependency graph provided by ENRE                | $G = \langle V,  D\rangle$                                   |
 | entity's restriction level | The non-SDK restriction level of entities  imposed by Android | ${ e.restrict\_level\in\{’sdk’, 'unsupported’, 'max-target-x', 'blocked'\}}$ |
 | entity's operation         | The operation downstream made to upstream entities           | ${e, e.operation\in\{'modify\ \ the\ \ modifier', 'modify\ \ the\ \ annotation', 'modify\ \ the\ \ parent\ class', etc\}}$ |
 | entity's ownership         | The ownership of entities                                    | ${e, e.ownership\in\{'actively\ native', 'obsoletely\ native', 'intrusively\ native', 'extensive'\}}$ |
