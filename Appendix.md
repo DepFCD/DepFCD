@@ -264,8 +264,8 @@ The formal definition of the dependency graph, updated graph, dependency facade,
 | entity's restriction level | The non-SDK restriction level of entities  imposed by Android | ${ e.restrict\_level\in\{’sdk’, 'unsupported’, 'max-target-x', 'blocked'\}}$ |
 | entity's operation         | The operation downstream made to upstream entities           | ${e, e.operation\in\{'modify\ \ the\ \ modifier', 'modify\ \ the\ \ annotation', 'modify\ \ the\ \ parent\ class', etc\}}$ |
 | entity's ownership         | The ownership of entities                                    | ${e, e.ownership\in\{'actively\ native', 'obsoletely\ native', 'intrusively\ native', 'extensive'\}}$ |
-| updated graph              | The updated dependency graph, which included restriction level, operation, ownership | $G’ = <V', D>, V’ = \{{e, e.ownership\neq\emptyset, e.operation\neq\emptyset, e.restrict_level\neq\emptyset \}}$ |
-| dependency facade          | The dependency facade which downstream coupling with upstream | $G_F = <V’, D’>$ |
+| updated graph              | The updated dependency graph, which included restriction level, operation, ownership | $G' = <V', D>, V' = \{{e, e.ownership\neq\emptyset, e.operation\neq\emptyset, e.restrict_level\neq\emptyset \}}$ |
+| dependency facade          | The dependency facade which downstream coupling with upstream | $G_F = <V', D'> \\ D' = \{{d = e_i \to e_j, \\e_i.ownership == 'extensive'\  \&\& \ e_j.ownership.endwith('native') \cup \\e_j.ownership == 'extensive'\ \&\& \ e_i.ownership.endwith('native')}\\\}$ |
 | conflicts                  | The entities which conflicts take place                      | ${e, e.conflict==CONFLICT\ BLOCK}$                           |
 
 
