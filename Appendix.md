@@ -258,7 +258,7 @@ The formal definition of the dependency graph, updated graph, dependency facade,
 
 | concept                    | description                                                  | definition                                                   |
 | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| vertex set                 | The set of entities(vertexes) of dependency graph            | $V = \{{e}\}$                                                |
+| vertex set                 | The set of entities(vertexes) of dependency graph            | $V = \{e}\}$                                                |
 | dependency set             | The set of edges(dependencies) of dependency graph           | $D = \{{d = e_i \to e_j}\}$                                  |
 | dependency graph           | The initial dependency graph provided by ENRE                | $G = < V,  D>$                                               |
 | entity's restriction level | The non-SDK restriction level of entities  imposed by Android | ${ e.restrict\_level\in\{’sdk’, 'unsupported’, 'max-target-x', 'blocked'\}}$ |
