@@ -293,7 +293,11 @@ The description name of the metrics Pact, Pins, Pext, Pobs, PE, and PD
 
 **Q3: please provide statistics (e.g., frequency counts) for the dependency facade in the "Features" column?**
 
-The mapping between the "Cases" column and the "Features" column in Table VIII and the statistics (e.g., frequency counts) for the dependency facade in the "Features" column.
+There are 3 kinds of mappings between the “Cases” and “Features” in Table VIII. Each “Case” can be characterized by several “Features”.
+
+- Interface-level dependency (highlighted in yellow): According to dependency definitions in Table II, each case can be mapped into several of 7 features, including “Call”, “Aggregate”, “Inherit”, etc.
+-  Dependency constraints (highlighted in blue): According to the entities of non-SDK restriction annotations, each case can be mapped into the corresponding dependency constraint.
+-  Intrusion operations (highlighted in purple): According to intrusion operation definitions in Table IV, each case can be mapped into the feature such as ⑩-“modify local variable” and ⑪-“modify method body"
 
 <table>
     <tr>
