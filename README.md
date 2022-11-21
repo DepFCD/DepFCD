@@ -5,7 +5,7 @@ Please note that due to paper page limit, we attach Section `Threats to Validity
 
 We opened all of the collected data of the investigated open-source subjects.  Due to the file size limit of GitHub, we upload the processed data to this repository. Please connect us for the large-scale raw data if required.
 
-*We also attached Appendix.md to provide extra data to respond to reviewers' questions*.
+We also attached **Appendix.md** to provide extra data to *respond to reviewers' questions*.
 
 The whole directory goes like the following:
 ```
